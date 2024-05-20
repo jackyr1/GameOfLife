@@ -1,10 +1,10 @@
 
 /*changes length of yellow body*/
 .minor-section{
-    background-color: rgb(245, 255, 106);
+    background-color: rgba(245, 255, 106, 0.623);
     padding-top: 15px;
     margin-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     border: solid 2px aliceblue;
 }
 
@@ -13,14 +13,15 @@ body{
     background-color: rgb(82, 149, 238);
     padding-left: 70px;
     padding-right: 70px;
-    background-size: 70%;
-    background-image: url('')
+    background-size: 100%;
+    background-image: url('https://morethanjustparks.com/wp-content/uploads/2020/09/2Q3A5366-2.jpg')
 }
 
 /*ucsc gol title*/
 h1{
     font-size: 35px;
     padding-top: 50px;
+    color: aliceblue;
 }
 
 /*slug pic*/
