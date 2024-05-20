@@ -1,9 +1,10 @@
 
 /*changes length of yellow body*/
-div{
+.minor-section{
     background-color: rgb(245, 255, 106);
-    padding-top: 50px;
+    padding-top: 15px;
     margin-top: 30px;
+    padding-bottom: 50px;
 }
 
 /*changes the blue background and changes shape of yellow body*/
@@ -29,18 +30,35 @@ h1{
     margin-left: 10px;
 }
 
+/*day 1*/
+h2{
+    text-align: right;   
+    font-size: 26px;
+    margin-right: 10px;
+    margin-top: 1px;
+}
 
+/*welcome*/
+p{
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+
+/*button stuff*/
 #submit{
     font-size: 95%;
     font-family: 'Courier New', monospace;
     background-color: rgb(0, 4, 255);
     color: aliceblue;
 }
-
 #user-name{
   font-size: 95%;
+  margin-top: 30px;
 }
-
 .text{
   font-size: 23px;
+  margin-top: 30px;
 }
