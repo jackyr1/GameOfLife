@@ -66,7 +66,7 @@ h2{
     color: aliceblue;
 }
 
-/*button stuff*/
+/*----------------button stuff---------------------*/
 #porter, #rC, #oakes, #kresge, #cowell, #jRL, #crown, #merrill, #stevenson{
     font-size: 120%;
     background-color: rgb(0, 136, 255);
@@ -75,14 +75,22 @@ h2{
     margin-left: auto;
     margin-right: auto;
     line-height: 30px;
-    margin-bottom: 15px;
+    margin-top: 25px;
 }
+/*--------------------hides the info---------------*/
+.hidden {
+    display: none;
+  }
 
-
-.special {
-    background-color: rgb(134, 99, 231);
-    border: dotted 30px rgb(21, 5, 248);
-    color: rgb(241, 241, 247);
-    font-weight: bold;
+/*should have different college info appear*/
+.sectionbox{
+    background-color: rgba(106, 183, 255, 0.644);
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 80px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    border: solid 2px aliceblue;
 }
 
