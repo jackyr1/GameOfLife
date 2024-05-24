@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>UCSC Game of Life</title>
 
@@ -7,75 +8,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/site.css">
-  	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-  	<script src="js/site.js" defer></script>
-  	<script type="text/javascript" src="./js/site.js" DEFER></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="js/site.js" defer></script>
+	<script type="text/javascript" src="./js/site.js" DEFER></script>
 
 </head>
-	<body>
-		<img style="float: left;" src="./img/saslug.png" class="slug">
+
+<body>
+	<img style="float: left;" src="./img/saslug.png" class="slug">
 
 	<main id="content">
-        <section>
+		<section>
 			<div id="output"></div>
-			<h1>Game of Life</h1>			
-			<div class="minor-section">
-					<h2>Day 1</h2>
-					<div class="welcome">
-						<p>Welcome to the University of California Santa Cruz!</p>
-					</div>
-
-					<div class="college">
-						<p>With several college dorms to choose from, which will you affiliate with?</p>
-					</div>
-							<button id="porter">Porter College</button>
-							<button id="rC">Rachel Carson College</button>									
-							<button id="oakes">Oakes College</button>
-							<button id="kresge">Kresge College</button>
-							<button id="jRL">John R. Lewis College</button>
-							<button id="crown">Crown College</button>
-							<button id="merrill">Merrill College</button>
-							<button id="cowell">Cowell College</button>
-							<button id="stevenson">Stevenson College</button>
-				
-					<div id="hideP" class="sectionbox hidden">
-						<h3>You are now in Porter college!</h3>
-						<p>blah blah blah</p>
-					</div>	
-					<div id="hideR" class="sectionbox hidden">
-						<h3>You are now in Rachel Carson college!</h3>
-						<p>blah blah blah</p>
-					</div>	
-					<div id="hideO" class="sectionbox hidden">
-						<h3>You are now in Oakes college!</h3>
-						<p>blah blah blah</p>
-					</div>	
-					<div id="hideK" class="sectionbox hidden">
-						<h3>You are now in Kresge college!</h3>
-						<p>blah blah blah</p>
-					</div>	
-					<div id="hideJ" class="sectionbox hidden">
-						<h3>You are now in John R. Lewis college!</h3>
-						<p>blah blah blah</p>
-					</div>	
-					<div id="hideC" class="sectionbox hidden">
-						<h3>You are now in Crown college!</h3>
-						<p>blah blah blah</p>
-					</div>	
-					<div id="hideM" class="sectionbox hidden">
-						<h3>You are now in Merrill college!</h3>
-						<p>blah blah blah</p>
-					</div>	
-					<div id="hideCW" class="sectionbox hidden">
-						<h3>You are now in Cowell college!</h3>
-						<p>blah blah blah</p>
-					</div>	
-					<div id="hideS" class="sectionbox hidden">
-						<h3>You are now in Stevenson college!</h3>
-						<p>blah blah blah</p>
-					</div>	
+			<h1>Game of Life</h1>
+			<div class="minor-section" id="startpage">
+				<div class="welcome">
+					<h2>Welcome to the University of California Santa Cruz!</h2>
+					<p>In this fun mini you will be prompted with questions that you must answer to continue! Although your answers are permanent you can always play again! The goal of this game is for you to better understand UCSC and the environment. We hope you have fun and make sure to make good choices!  </p>
+					<button id="start">Start!</button>
+				</div>
 			</div>
-		</section>
-	<body>
-</html>
 
+			<div class="minor-section hidden" id="day1">
+				<h2>Today is ur first day....</h2>
+				<button id="porter">Porter College</button>
+			</div>
+
+		</section>
+	</main>
+
+	<body>
+
+</html>
