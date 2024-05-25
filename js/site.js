@@ -9,3 +9,4 @@ $("#start").click(function(){
     // brings in day1
     $("#day1").removeClass("hidden");
 })  
+
