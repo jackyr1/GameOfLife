@@ -7,6 +7,6 @@ $("#start").click(function(){
    // gets rid of first page
     $("#startpage").addClass("hidden");
     // brings in day1
-    $("#day1").removeClass("hidden");
+    $("#game-root").removeClass("hidden");
 })  
 
