@@ -4,204 +4,268 @@ const { useState } = React;
 // questions
 const sections = {
     section1: [
-        { content: (
-            <div>
-                <h2>Welcome to Stevenson College</h2>
-                <p>College Blah blash balh.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 2: More details about Topic 1</h2>
-                <p>This is the second step of Topic 1.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 3: Conclusion of Topic 1</h2>
-                <p>This is the third step of Topic 1.</p>
-            </div>
-        ) },
+        {
+            content: (
+                <div>
+                    <h2>Welcome to Stevenson College</h2>
+                    <img class="stevenson"
+                        src="./img/stevensondorms.webp"
+                        alt="Stevenson college at UCSC dorms">
+                    </img>
+                    <p>Stevenson college.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 2: More details about Topic 1</h2>
+                    <p>This is the second step of Topic 1.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 3: Conclusion of Topic 1</h2>
+                    <p>This is the third step of Topic 1.</p>
+                </div>
+            )
+        },
     ],
     section2: [
-        { content: (
-            <div>
-                <h2>Welcome to Cowell College</h2>
-                <p>This is the first step of Topic 2.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 2: More details about Topic 2</h2>
-                <p>This is the second step of Topic 2.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 3: Conclusion of Topic 2</h2>
-                <p>This is the third step of Topic 2.</p>
-            </div>
-        ) },
+        {
+            content: (
+                <div>
+                    <h2>Welcome to Cowell College</h2>
+                    <p>This is the first step of Topic 2.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 2: More details about Topic 2</h2>
+                    <p>This is the second step of Topic 2.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 3: Conclusion of Topic 2</h2>
+                    <p>This is the third step of Topic 2.</p>
+                </div>
+            )
+        },
     ],
     section3: [
-        { content: (
-            <div>
-                <h2>Welcome to Merrill College</h2>
-                <p>This is the first step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 2: More details about Topic 3</h2>
-                <p>This is the second step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 3: Conclusion of Topic 3</h2>
-                <p>This is the third step of Topic 3.</p>
-            </div>
-        ) },
+        {
+            content: (
+                <div>
+                    <h2>Welcome to Merrill College</h2>
+                    <p>This is the first step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 2: More details about Topic 3</h2>
+                    <p>This is the second step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 3: Conclusion of Topic 3</h2>
+                    <p>This is the third step of Topic 3.</p>
+                </div>
+            )
+        },
     ],
     section4: [
-        { content: (
-            <div>
-                <h2>Welcome to Crown College</h2>
-                <p>This is the first step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 2: More details about Topic 3</h2>
-                <p>This is the second step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 3: Conclusion of Topic 3</h2>
-                <p>This is the third step of Topic 3.</p>
-            </div>
-        ) },
+        {
+            content: (
+                <div>
+                    <h2>Welcome to Crown College</h2>
+                    <p>This is the first step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 2: More details about Topic 3</h2>
+                    <p>This is the second step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 3: Conclusion of Topic 3</h2>
+                    <p>This is the third step of Topic 3.</p>
+                </div>
+            )
+        },
     ],
     section5: [
-        { content: (
-            <div>
-                <h2>Welcome to College Nine</h2>
-                <p>This is the first step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 2: More details about Topic 3</h2>
-                <p>This is the second step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 3: Conclusion of Topic 3</h2>
-                <p>This is the third step of Topic 3.</p>
-            </div>
-        ) },
+        {
+            content: (
+                <div>
+                    <h2>Welcome to College Nine</h2>
+                    <p>This is the first step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 2: More details about Topic 3</h2>
+                    <p>This is the second step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 3: Conclusion of Topic 3</h2>
+                    <p>This is the third step of Topic 3.</p>
+                </div>
+            )
+        },
     ],
     section6: [
-        { content: (
-            <div>
-                <h2>Welcome to John R. Lewis College</h2>
-                <p>This is the first step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 2: More details about Topic 3</h2>
-                <p>This is the second step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 3: Conclusion of Topic 3</h2>
-                <p>This is the third step of Topic 3.</p>
-            </div>
-        ) },
+        {
+            content: (
+                <div>
+                    <h2>Welcome to John R. Lewis College</h2>
+                    <p>This is the first step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 2: More details about Topic 3</h2>
+                    <p>This is the second step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 3: Conclusion of Topic 3</h2>
+                    <p>This is the third step of Topic 3.</p>
+                </div>
+            )
+        },
     ],
     section7: [
-        { content: (
-            <div>
-                <h2>Welcome to Kresge College</h2>
-                <p>This is the first step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 2: More details about Topic 3</h2>
-                <p>This is the second step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 3: Conclusion of Topic 3</h2>
-                <p>This is the third step of Topic 3.</p>
-            </div>
-        ) },
+        {
+            content: (
+                <div>
+                    <h2>Welcome to Kresge College</h2>
+                    <p>This is the first step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 2: More details about Topic 3</h2>
+                    <p>This is the second step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 3: Conclusion of Topic 3</h2>
+                    <p>This is the third step of Topic 3.</p>
+                </div>
+            )
+        },
     ],
     section8: [
-        { content: (
-            <div>
-                <h2>Welcome to Porter College</h2>
-                <p>This is the first step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 2: More details about Topic 3</h2>
-                <p>This is the second step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 3: Conclusion of Topic 3</h2>
-                <p>This is the third step of Topic 3.</p>
-            </div>
-        ) },
+        {
+            content: (
+                <div>
+                    <h2>Welcome to Porter College</h2>
+                    <p>This is the first step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 2: More details about Topic 3</h2>
+                    <p>This is the second step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 3: Conclusion of Topic 3</h2>
+                    <p>This is the third step of Topic 3.</p>
+                </div>
+            )
+        },
     ],
     section9: [
-        { content: (
-            <div>
-                <h2>Welcome to Rachel Carson College</h2>
-                <p>This is the first step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 2: More details about Topic 3</h2>
-                <p>This is the second step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 3: Conclusion of Topic 3</h2>
-                <p>This is the third step of Topic 3.</p>
-            </div>
-        ) },
+        {
+            content: (
+                <div>
+                    <h2>Welcome to Rachel Carson College</h2>
+                    <p>This is the first step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 2: More details about Topic 3</h2>
+                    <p>This is the second step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 3: Conclusion of Topic 3</h2>
+                    <p>This is the third step of Topic 3.</p>
+                </div>
+            )
+        },
     ],
     section10: [
-        { content: (
-            <div>
-                <h2>Welcome to Oaks College</h2>
-                <p>This is the first step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 2: More details about Topic 3</h2>
-                <p>This is the second step of Topic 3.</p>
-            </div>
-        ) },
-        { content: (
-            <div>
-                <h2>Step 3: Conclusion of Topic 3</h2>
-                <p>This is the third step of Topic 3.</p>
-            </div>
-        ) },
+        {
+            content: (
+                <div>
+                    <h2>Welcome to Oaks College</h2>
+                    <p>This is the first step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 2: More details about Topic 3</h2>
+                    <p>This is the second step of Topic 3.</p>
+                </div>
+            )
+        },
+        {
+            content: (
+                <div>
+                    <h2>Step 3: Conclusion of Topic 3</h2>
+                    <p>This is the third step of Topic 3.</p>
+                </div>
+            )
+        },
     ],
 };
 
@@ -226,9 +290,9 @@ function Game() {
                 // main menu
                 <div>
                     <p>Here at UCSC we all have to make an important decision... What college you are in! We have ten
-					awesome colleges to choose from. When picking your college keep in mind that not only is this a
-					place for you to live you will also be taking a course dedicated to your college!</p>
-				<p> With that in mind, What college will you pick?</p>
+                        awesome colleges to choose from. When picking your college keep in mind that not only is this a
+                        place for you to live you will also be taking a course dedicated to your college!</p>
+                    <p> With that in mind, What college will you pick?</p>
                     <button onClick={() => setCurrentSection('section1')}>Stevenson College</button>
                     <button onClick={() => setCurrentSection('section2')}>Cowell College</button>
                     <button onClick={() => setCurrentSection('section3')}>Merrill College</button>
