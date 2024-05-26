@@ -1,6 +1,7 @@
 
+/*this is the main part of the game
 /*white section of the website with in formation*/
-.minor-section{
+.minor-section {
     background-color: rgb(255, 255, 255);
     padding-top: 15px;
     margin-top: 30px;
@@ -8,37 +9,57 @@
     border: solid 10px #001638;
 }
 
+/* welcome to...*/
+h2 {
+    font-size: xx-large;
+    color: #001638;
+
+}
+
+/*lower header*/
+h3 {
+    font-size: medium;
+    color: #001638;
+}
+
+/*paragraph text */
+p {
+    font-size: medium;
+}
+
 /*yellow background*/
-body{
+body {
     background-color: #ffcc00;
     padding-left: 70px;
     padding-right: 70px;
     background-size: 100%;
 }
 
+
+/*tidal page
 /*game of life title*/
-h1{
-    font-size: 35px;
+h1 {
+    font-size: px;
     padding-top: 55px;
     color: #001638;
     margin-left: 280px;
 }
 
 /*slug pic*/
-.slug{
+.slug {
     display: block;
     margin: 1px;
     max-width: 120px;
 }
 
 /*welcome*/
-.welcome{
+.welcome {
     font-size: 25px;
     margin: 10px;
 }
 
 /*UCSC title*/
-.text2{
+.text2 {
     font-size: 56px;
     position: absolute;
     top: 15px;
@@ -46,8 +67,9 @@ h1{
     color: #001638;
 }
 
+
 /*----------------button stuff---------------------*/
-#start{
+#start {
     font-size: 120%;
     background-color: #ffcc00;
     color: #001638;
