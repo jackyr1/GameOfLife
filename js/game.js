@@ -36,8 +36,15 @@ const sections = {
                         people. This themed living space is perfect for students who share these interests and wish
                         to be surrounded by peers with the same interests.  </p>
                     <h3>Our Thoughts:</h3>
-                    <p>Stevenson has an absolutely beautiful view and an amazing environment, there are many
-                        types of people here however there is a large amount of “gym bros” due to how close the gym is. </p>
+                    <p>Stevenson has an absolutely beautiful view and an amazing environment, there are many types 
+                        of people here however there is a large amount of “gym bros” due to how close the gym is. 
+                        It is a pretty social college and is also located near the Stevenson/Cowell dining hall. The 
+                        two Stevenson core classes were a little intense, with a lot of reading, but it did count for 
+                        a Textual analysis GE. The dorms are a little cramped, but the apartments have a lot of room. 
+                        It’s in a great location that has the most beautiful views of the ocean. The college is pretty 
+                        rowdy and many people stay up late so if you're looking for a quiet place Stevenson probably 
+                        isn't for you.
+</p>
                 </div>
             )
         },
@@ -67,13 +74,36 @@ const sections = {
                         src="./img/cowelldorms.jpg"
                         alt="Cowell College dorms at UCSC">
                     </img>
-                    <p>Placeholder</p>
+                    <p>Congrats on choosing Cowell College, this college was founded in 1965, and named after Henry Cowell 
+                        and his family, who lived on the land that is now UCSC. Cowell was the first residential college of
+                        UCSC and unlike the other residence halls, Cowell has not a theme but a motto: “The Pursuit of Truth 
+                        in the Company of Friends” Cowell’s sister college is Stevenson College, meaning the college are very 
+                        close to each other with similar or complementary themes and often do events together.  </p>
                     <h3>Core Course:</h3>
-                    <p>Information about core course placeholder</p>
+                    <p>Cowell’s Core Course is Imagining Justice Past and Present. It focuses on understanding concepts of 
+                        justice throughout time and examines how theorists, artistic media, and societies themselves define what 
+                        is just. The course encourages students to examine their own definition of justice and compare it to 
+                        questions of justice historically and contemporarily.</p>
                     <h3>Environment: </h3>
-                    <p>Information about environment placeholder</p>
+                    <p>CCowell College, located next to Stevenson has some of the best views on campus as it overlooks Eastfield 
+                        and the bay of Santa Cruz. Like Stevenson, Cowell is also known for its proximity to the gym, which is a 
+                        big plus for any students wanting easy access to the facilities offered by the rec center. Cowell also 
+                        shares the Cowell and Stevenson dining hall and are known as one of the best dining halls on campus. 
+                        This college has a lot of places to hang out and enjoy the view, or get some studying done. The Cowell 
+                        Library is a favorite of these locations called the Page Smith Library, which is named after the first 
+                        Cowell Provost. It also is the home to the Eloise Pickard Smith Gallery which focuses on art within the 
+                        central coast and creates exhibits that focus on subjects that are pertinent to the College. The Cowell 
+                        dorms are located close to the dining hall and Cowell cafe which is free for all students who check-in, 
+                        the food there is organic and locally sourced! so it's very convenient for easy meals. Cowell offers a 
+                        variety of dorm rooms and apartments, and themed floors in each residence hall. Cowell is also known for 
+                        its close proximity to Quarry Plaza, the center of campus, which is great for students who want to feel 
+                        connected to campus life and events. Cowell is also close to the Philosophy department and the Language 
+                        departments and is located near the Humanities building meaning a lot of students with these passions 
+                        choose this college.</p>
                     <h3>Our Thoughts:</h3>
-                    <p>Information out thoughts placeholder</p>
+                    <p>Cowell College is in a beautiful location, close to the center of campus, and known for its sense of community. 
+                        Cowell is known for having affiliates that are in Fraternities as well as frequent gym goers. If you are a 
+                        fan of high-energy people and want to have a great time Cowell would be a great place for you!</p>
                 </div>
             )
         },
@@ -175,13 +205,34 @@ const sections = {
                         src="./img/"
                         alt="">
                     </img>
-                    <p>Placeholder</p>
+                    <p>Congrats on choosing College Nine! This college was founded in 2000 making it one of the newest 
+                        residential halls on campus. Its theme is International and Global Perspectives, which 
+                        emphasizes the importance of cultural competency and focuses on issues such as economic 
+                        globalization, environmental degradation, human rights, and international and ethnic conflicts. 
+                        College Nine’s sister college is John R Lewis meaning the colleges are very close to each other 
+                        with similar or complementary themes and often have events together.  </p>
                     <h3>Core Course:</h3>
-                    <p>Information about core course placeholder</p>
+                    <p>College Nine’s core course, International and Global Issues, combines the teaching of writing, 
+                        reading, and critical thinking skills while expanding on the college’s theme of cultural understanding 
+                        by analyzing and discussing contemporary global issues.</p>
                     <h3>Environment: </h3>
-                    <p>Information about environment placeholder</p>
+                    <p>College Nine is located at the top of campus and is known as the international student housing at UCSC. 
+                        As with everywhere on campus, College Nine is surrounded by redwoods and wildlife sightings are common. 
+                        Being located at the top of campus, College Nine is flanked by the redwood forest, which provides close 
+                        hiking trails, and even forest raves! Tree Nine is one of the most well-known locations of UCSC’s famed 
+                        forest raves and is only a short walk into the woods from College Nines residence halls. College Nine also 
+                        has one of the only dining halls to offer late-night dining every day of the week including weekends. It’s 
+                        also one of the dining halls with the most options in terms of variety of food. Being located at the top of 
+                        campus, walking anywhere on campus from college nine is guaranteed to be downhill which makes for an easy 
+                        time getting to class. However, coming back is guaranteed to be all uphill, but this can be avoided by taking 
+                        the bus to the college nine stop which saves you most of the uphill walk. As for study spots, College Nine has 
+                        two lounges located near its residence halls, one even has a vending machine. There is also a little cafe located 
+                        above the dining hall which has a nice inside area as well as a sunny outside patio. Both are very nice places to study.</p>
                     <h3>Our Thoughts:</h3>
-                    <p>Information out thoughts placeholder</p>
+                    <p>College Nine is overall a very chill place to live aside from the raves, there are many chill places to study and the 
+                        dining hall is deemed one of the best on campus. The people there are super inclusive and friendly and, as mentioned, 
+                        there are a lot of hiking trails! The trails from college nine are absolutely amazing and super beautiful, 
+                        even non-affiliated students should check them out.</p>
                 </div>
             )
         },
