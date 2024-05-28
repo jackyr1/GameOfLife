@@ -133,13 +133,32 @@ const sections = {
                         src="./img/"
                         alt="">
                     </img>
-                    <p>Placeholder</p>
+                    <p>Congrats on choosing Merrill College, this college was founded in 1968 and was named after Charles E. 
+                        Merrill Jr., who was an educator and philanthropist. Merrill College is known for its strong emphasis 
+                        on social justice, diversity, and global awareness. Merril’s sister college is Crown College, meaning 
+                        the colleges are very close to each other with similar or complementary themes and often do events 
+                        together. Its theme is cultural identities and global consciousness and highlights interdisciplinary 
+                        approaches to understanding societal issues and encourages students to engage with their local and global 
+                        communities. Merrill is located on top of a steep incline hill, so living in Merrill will definitely build 
+                        those “UC sexy calves.” </p>
                     <h3>Core Course:</h3>
-                    <p>Information about core course placeholder</p>
+                    <p>Merrill’s core course is called Cultural Identities and Global Consciousness, it focuses on studying people's 
+                        struggles to preserve their cultural identities while also working on social change all over the world. The 
+                        course encourages students to become more globally conscious and further their understanding while being a student. </p>
                     <h3>Environment: </h3>
-                    <p>Information about environment placeholder</p>
+                    <p>The environment within Merrill is very community-based and fun. You have to be somewhat athletic to live here 
+                        because of the steep hill that you have to climb to get to the college. It is not the most social of the colleges, 
+                        but it does have a pretty active nightlife. There is a really cool forest spot near Merrill called the Tuck, which 
+                        hosts forest raves and forest events from time to time. Merrill shares a dining hall with its sister college, Crown, 
+                        however, they also have one of the most delicious and popular late-night dining services, Banana Joe’s located right 
+                        next to the dining hall. Banana Joe’s is always bustling and many UCSC students love to go here for a late-night snack, 
+                        even ones not in the area. Merrill also has the Merrill Pottery Co-op, an amazing pottery studio that provides many 
+                        pottery supplies! The KZSC radio station is also located nearby and is super popular for interested students! Merrill 
+                        also has a cultural center that holds theater performances, lectures, and other large-scale events. </p>
                     <h3>Our Thoughts:</h3>
-                    <p>Information out thoughts placeholder</p>
+                    <p>Merrill has a lot of fun stuff to do however it is still filled with “quit nerds” as many have put it. Many people are 
+                        super nice and love living there however a lot of the dorms are pretty small. Even with the hill we still find ourselves 
+                        going up and spending time going to Banana Joes, the Pottery Co-op or just hanging out! </p>
                 </div>
             )
         },
@@ -169,13 +188,31 @@ const sections = {
                         src="./img/"
                         alt="">
                     </img>
-                    <p>Placeholder</p>
+                    <p>Congrats on choosing Crown College, this college was founded in 1967 and was the third of the residential colleges 
+                        to be built on campus. Crown’s theme is Exploring Ethics in Emerging Science and Technology which emphasizes a 
+                        focus on ethical and inclusive living and learning. Crown’s sister college is Merrill College, meaning the colleges 
+                        are very close to each other with similar or complementary themes and often do events together.</p>
                     <h3>Core Course:</h3>
-                    <p>Information about core course placeholder</p>
+                    <p>Crown’s core course,  Ethical and Political Implications in Emerging Technologies, lasts one quarter and builds on 
+                        Crown's theme. This course is meant to be an introduction to university discourse and will cover topics surrounding 
+                        ethics and the transformation of the world due to new technologies.  </p>
                     <h3>Environment: </h3>
-                    <p>Information about environment placeholder</p>
+                    <p>Located on a hill deemed Cardiac Hill at the very top of campus, Crown is guaranteed to give students substantial leg 
+                        muscles by the end of their first year. Crown is surrounded by forest making it very beautiful, it is known to be a 
+                        relatively quiet community seeing as many of its residents are game design or computer programming majors. Crown is 
+                        only a short distance from Merrill Market and the quad surrounding it, the market is a great place to get snacks, 
+                        cooking ingredients, or even coffee from its small cafe area. The quad itself is a very nice place to study or hang 
+                        out with friends, with its sunny lawn area and a few tables surrounding it. Crown is also very close to Banana Joe’s, 
+                        the only place on campus that stays open until 11 PM and serves some very tasty burgers, fries, pizzas, and desserts. 
+                        Aside from Cardiac Hill Crown’s only other downside is the fact that there is only one bus stop located right at the 
+                        bottom of the hill, if you happen to be on the wrong side of the road on your bus ride you will have to walk from the 
+                        College Nine or Stevenson bus stop to get back to Crown.	</p>
                     <h3>Our Thoughts:</h3>
-                    <p>Information out thoughts placeholder</p>
+                    <p>Overall, Crown is a good place for someone looking for a chill environment to live in and comes with the perks of 
+                        having a market and a late-night place to get food easily. Although it does have the downside of one bus stop and the 
+                        hill, you are still guaranteed to have amazing legs, and good food while living in the dorms. If you are someone who 
+                        majors in computer science or game design or just someone who enjoys those topics then Crown would definitely be great 
+                        for you and you'd be able to make some friends with similar interests. </p>
                 </div>
             )
         },
