@@ -497,13 +497,21 @@ const sections = {
                         src="./img/"
                         alt="">
                     </img>
-                    <p>Placeholder</p>
+                    <p>Congrats on choosing Oakes College, this college was founded in 1972 and is located at the base of campus. Its theme is Communicating 
+                        Diversity for a Just Society. Oakes' sister college is Rachel Carson, so close they blend and you won’t tell which is which.</p>
                     <h3>Core Course:</h3>
-                    <p>Information about core course placeholder</p>
+                    <p>The Oakes core course introduces students to the major intellectual, cultural, social, and political themes. It is designed to help 
+                        students find their voices and join the ongoing scholarly conversation here at UCSC.</p>
                     <h3>Environment: </h3>
-                    <p>Information about environment placeholder</p>
+                    <p>Oakes is one of the furthest colleges away from everything on campus but it is super gorgeous. This college is located on the lower side 
+                        of campus, which is easy to get to going downhill but a dread when you’re leaving. There’s a beautiful, flat scenic path that goes 
+                        straight to the art department buildings. As well as good chill places on the lower and upper lawns found in their college that hold 
+                        events like OakesChella and the Multicultural Festival. Oakes is known for their Oakes Cafe, where you can get a variety of scrumptious 
+                        sandwiches, Baja Blast, and amazing chicken tenders! The cafe is one of the most popular on campus and many students go there for lunch, 
+                        breakfast, or even dinner.</p>
                     <h3>Our Thoughts:</h3>
-                    <p>Information out thoughts placeholder</p>
+                    <p>You’ll have the opportunity to walk a lot to get anywhere here at Oakes! If you think dorming on campus feels like a long sleepover or summer 
+                        camp, you’ll for sure feel that at Oakes. It is super peaceful with a great environment and friendly people!</p>
                 </div>
             )
         },
