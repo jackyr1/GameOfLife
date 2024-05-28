@@ -397,13 +397,30 @@ const sections = {
                         src="./img/"
                         alt="">
                     </img>
-                    <p>Placeholder</p>
+                    <p>Congrats on choosing Porter College, this college was founded in 1969 and was named after the Porter-Sesnon family who donated 
+                        a grant. The theme relies on people to express themselves through a creative outlet as it’s one of education's key components 
+                        to a happy life. Porter’s sister college is Kresge, both are not located as close to each other as other colleges. </p>
                     <h3>Core Course:</h3>
-                    <p>Information about core course placeholder</p>
+                    <p>As a Porter affiliate, you are required to take the Porter Core class that lasts just for one quarter. Here you will learn about 
+                        the different social and political issues in our world through different media of literature. The course is fairly engaging but 
+                        is located in a weird classroom under the dining hall that is hard to find. </p>
                     <h3>Environment: </h3>
-                    <p>Information about environment placeholder</p>
+                    <p>A glimpse of the ocean can be seen here at Porter where the famous red Porter Squiggle sculpture is located, Porter is actually 
+                        the only college with an official mascot. There’s never a dull quiet moment at this college, the places to visit range from our 
+                        Koi fish pond to the Porter Meadows with its hidden gem hangout places such as the witches' circle! Porter is also known for their 
+                        artsy individuals as it’s one of the closest colleges to the art department buildings and has the History of Art and Visual Culture 
+                        department inside! Their theme revolves around creative expressions, whether it be through writing, painting, filming, and more. 
+                        Many people here love to show their creativity and expression through art, clothes, interests, and more! Porter is super fun all 
+                        the time and has many events. The dining hall is pretty good but is a lot smaller than others and sadly closes at 7:00 PM. Porter 
+                        is also home to the transfer community so many transfer students decide to go here! There are also many lounges to study at. One of 
+                        the coolest parts of Porter College is the Mary Porter Sesnon Art Gallery, a beautiful art gallery on campus that gives many internships 
+                        to students! </p>
                     <h3>Our Thoughts:</h3>
-                    <p>Information out thoughts placeholder</p>
+                    <p>This college is perfect for those who would rather spend their time out in the sun with friends or reconnect with Mother Nature. Many 
+                        known events are held here at Porter like the first rain run, Porter Palooza, and a special occasion during April of the spring quarter. 
+                        As for dorms, all the first years are located in a single building rather than multiple spread out. They’re also a little outdated with 
+                        not-so-good bright lighting compared to other colleges. The people at Porter are super nice and are always holding doors open for you and 
+                        complimenting outfits! Porter is super social and you are guaranteed to make friends here!</p>
                 </div>
             )
         },
@@ -433,13 +450,24 @@ const sections = {
                         src="./img/"
                         alt="">
                     </img>
-                    <p>Placeholder</p>
+                    <p>Congrats on choosing Rachel Carson College also known as RCC, this college was founded in 1972. Its theme is Environment and Society, 
+                        which focuses on the environmental issues of the current era within a social, scientific, and political context. RCC is the sister 
+                        college of Oaks College meaning the colleges are very close to each other with similar or complementary themes and often do events 
+                        together.  </p>
                     <h3>Core Course:</h3>
-                    <p>Information about core course placeholder</p>
+                    <p>RCC’s core course expands on its theme, focusing on California specifically, and aims to strengthen students' understanding of the 
+                        connections between the current environmental crisis and contemporary social systems. </p>
                     <h3>Environment: </h3>
-                    <p>Information about environment placeholder</p>
+                    <p>Located near the base of campus, RCC is known for its views and its gorgeous dining hall. Its dining hall, shared with oaks, is one 
+                        of the only dining halls to offer late-night options every day of the week. It's also the newest dining hall on campus and therefore 
+                        quite a sight to see along with its spectacular views of the bay. RCC has a lot of stairs, however, located halfway down these stairs 
+                        is a little quad that sometimes hosts arts and crafts events and is a nice place to sit and hang out with friends. It also has a variety 
+                        of different spots around the residence halls that have amazing views and benches where students can study or simply watch the sunset. 
+                        RCC also has its own indoor volleyball and basketball courts as well as outdoor tennis courts which are a great way to spend time with friends. </p>
                     <h3>Our Thoughts:</h3>
-                    <p>Information out thoughts placeholder</p>
+                    <p>RCC is a gorgeous college with a lot to do and fun people however many are known to be in a sorority. The amazing dining hall offers many options 
+                        and has a very modern design. The college is very residential looking and gives a lot of students a sense of ease and homeyness. The people at RCC 
+                        are also nice and always seem super happy!</p>
                 </div>
             )
         },
