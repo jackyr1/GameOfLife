@@ -299,13 +299,25 @@ const sections = {
                         src="./img/"
                         alt="">
                     </img>
-                    <p>Placeholder</p>
+                    <p>Congrats on choosing John R. Lewis College which is also known as JRL and College 10! This college was founded in 
+                        2002 and has a theme of Social Justice and Community. JRL’s sister college is College Nine meaning the colleges 
+                        are very close to each other with similar or complementary themes and often do events together. </p>
                     <h3>Core Course:</h3>
-                    <p>Information about core course placeholder</p>
+                    <p>JRL’s core course expands on its theme the goal of promoting and understanding social justice in communities around 
+                        the world. It is also meant to improve students' writing, reading, critical thinking, and presenting skills.</p>
                     <h3>Environment: </h3>
-                    <p>Information about environment placeholder</p>
+                    <p>JRL is located at the top of campus and shares a dining hall with College Nine. It is known as a community of students
+                        passionate about social issues and offers a variety of opportunities to engage in social justice practices such as 
+                        volunteering abroad or locally. JRL is located just steps away from the student-run Terry Frietas Cafe, which is an 
+                        excellent place to study or hang out with friends, and often hosts club gatherings and events. In addition to the 
+                        Terry Frietas Cafe JRL’s shared dining hall is one of the only dining halls to offer late-night dining every day 
+                        of the week including weekends. It’s also one of the dining halls with the most options in terms of variety of food. 
+                        Like College Nine, JRL is also located pretty close to infamous rave spots such as Tree Nine, which is a bit of a walk 
+                        into the forest behind c9 and JRL. </p>
                     <h3>Our Thoughts:</h3>
-                    <p>Information out thoughts placeholder</p>
+                    <p>JRL is fairly quiet and you do not meet a lot of people who live here but it is super cute and everyone is so nice. 
+                        Being next to College Nine and being in the center of everything has a lot of advantages. The trails in those areas are 
+                        amazing and work checking out! </p>
                 </div>
             )
         },
@@ -335,13 +347,27 @@ const sections = {
                         src="./img/"
                         alt="">
                     </img>
-                    <p>Placeholder</p>
+                    <p>Congrats on choosing Kresge College, this college was founded in 1971. Here they are known for their writing and 
+                        theme of Power and Representation, which explores the ways we represent ourselves as individuals in relation to 
+                        communities, focusing on representations of class, ethnicity, sexual orientation, gender, and race. Kresge’s sister 
+                        college is Porter, unlike other colleges, they’re a little longer distance away from each other.</p>
                     <h3>Core Course:</h3>
-                    <p>Information about core course placeholder</p>
+                    <p>The core course at Kresge, Power and Representation, is a course in the literature of individual and collective struggles 
+                        for social justice, with an emphasis on dialogues about gender identity, anti-racism movements, documentation status, 
+                        and immigrants' rights.</p>
                     <h3>Environment: </h3>
-                    <p>Information about environment placeholder</p>
+                    <p>Kresge is one of our most beautiful and modern colleges here at UCSC. Although all the new is a main attraction to everyone 
+                        it is still under construction, meaning it’s very noisy and can be really bothersome but shold be done by at the end of 
+                        spring semester 2025! Aside from that, Kresge has a brand new cafe called Owl’s Nest where students can find a yummy vegan 
+                        bar filled with many choices, combining to their desire. One of the locations closest to this is Science Hill, a place where 
+                        every student is bound to go so it can be pretty convenient being here at Kresge. Like many other places on UCSC you are 
+                        surrounded by red woods and beautiful forests and paths. </p>
                     <h3>Our Thoughts:</h3>
-                    <p>Information out thoughts placeholder</p>
+                    <p>If you are interested in modern interiors and a lot of natural light, Kresge is definitely one of the nicest colleges here to 
+                        dorm in. Within the buildings, they have a lot of chill places to hangout that including couches and even a ping pong table. 
+                        As for the people there, they’re surprisingly harder to find/meet around campus, almost like they’re not real. With such pretty 
+                        views, interior and exterior this place would be great for someone who really cares about a great environment, but be weary of 
+                        the construction! </p>
                 </div>
             )
         },
