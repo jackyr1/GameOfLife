@@ -42,7 +42,6 @@ h1 {
     font-size: px;
     padding-top: 55px;
     color: #001638;
-    margin-left: 280px;
 }
 
 /*slug pic*/
@@ -76,7 +75,14 @@ h1 {
     display: block;
     line-height: 30px;
     position: absolute;
-    left: 50%;
+    left: 50%;/*UCSC title*/
+.text2 {
+    font-size: 56px;
+    position: absolute;
+    top: 15px;
+    left: 205px;  
+    color: #001638;
+}
     top: 78%;
     border: solid 5px #001638;
 }
@@ -98,3 +104,12 @@ h1 {
     border: solid 2px aliceblue;
 } */
 
+/*photos for dorms*/
+.college_photo {
+    max-width: 300px;
+}
+
+/*map of UCSC on start page*/
+.collegemap {
+    max-height: 600px;
+}

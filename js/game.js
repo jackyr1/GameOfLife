@@ -8,7 +8,7 @@ const sections = {
             content: (
                 <div>
                     <h2>Welcome to Stevenson College!</h2>
-                    <img class="stevenson"
+                    <img class="college_photo"
                         src="./img/stevensondorms.webp"
                         alt="Stevenson college at UCSC dorms">
                     </img>
@@ -51,8 +51,11 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's go to the Stevenson College orientation!</h2>
+                    <p>Awesome! You have now picked your college! You head over to your dorm and unpack your things. 
+                        You look at your new shiny school email and see that you have been sent an email about a 
+                        Stevenson College orientation happening tonight. This is super important to go to since you 
+                        will learn a lot about the college, what to expect, and the core course as well as make new friends!</p>
                 </div>
             )
         },
@@ -70,7 +73,7 @@ const sections = {
             content: (
                 <div>
                     <h2>Welcome to Cowell College!</h2>
-                    <img class="cowell"
+                    <img class="college_photo"
                         src="./img/cowelldorms.jpg"
                         alt="Cowell College dorms at UCSC">
                     </img>
@@ -110,8 +113,11 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's go to the Cowell College orientation!</h2>
+                    <p>Awesome! You have now picked your college! You head over to your dorm and unpack your things. You look at 
+                        your new shiny school email and see that you have been sent an email about a Cowell College orientation 
+                        happening tonight. This is super important to go to since you will learn a lot about the college, what to 
+                        expect, and the core course as well as make new friends!</p>
                 </div>
             )
         },
@@ -129,9 +135,9 @@ const sections = {
             content: (
                 <div>
                     <h2>Welcome to Merrill College!</h2>
-                    <img class="merrill"
-                        src="./img/"
-                        alt="">
+                    <img class="college_photo"
+                        src="./img/merrilldorms.jpg"
+                        alt="Merrill College dorms at UCSC">
                     </img>
                     <p>Congrats on choosing Merrill College, this college was founded in 1968 and was named after Charles E. 
                         Merrill Jr., who was an educator and philanthropist. Merrill College is known for its strong emphasis 
@@ -165,8 +171,10 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's go to the Merrill College orientation!</h2>
+                    <p>Awesome! You have now picked your college! You head over to your dorm and unpack your things. You look at your new shiny 
+                        school email and see that you have been sent an email about a Merrill College orientation happening tonight. This is 
+                        super important to go to since you will learn a lot about the college, what to expect, and the core course as well as make new friends!</p>
                 </div>
             )
         },
@@ -184,9 +192,9 @@ const sections = {
             content: (
                 <div>
                     <h2>Welcome to Crown College!</h2>
-                    <img class="crown"
-                        src="./img/"
-                        alt="">
+                    <img class="college_photo"
+                        src="./img/crowndorms.jpg"
+                        alt="Crown College dorms at UCSC">
                     </img>
                     <p>Congrats on choosing Crown College, this college was founded in 1967 and was the third of the residential colleges 
                         to be built on campus. Crown’s theme is Exploring Ethics in Emerging Science and Technology which emphasizes a 
@@ -219,8 +227,10 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's go to the Crown College orientation!</h2>
+                    <p>Awesome! You have now picked your college! You head over to your dorm and unpack your things. You look at your new shiny 
+                        school email and see that you have been sent an email about a Crown College orientation happening tonight. This is super 
+                        important to go to since you will learn a lot about the college, what to expect, and the core course as well as make new friends!</p>
                 </div>
             )
         },
@@ -238,9 +248,9 @@ const sections = {
             content: (
                 <div>
                     <h2>Welcome to College Nine!</h2>
-                    <img class="nine"
-                        src="./img/"
-                        alt="">
+                    <img class="college_photo"
+                        src="./img/ninedorms.jpg"
+                        alt="College Nine dorms at UCSC">
                     </img>
                     <p>Congrats on choosing College Nine! This college was founded in 2000 making it one of the newest 
                         residential halls on campus. Its theme is International and Global Perspectives, which 
@@ -276,8 +286,10 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's go to the College Nine orientation!</h2>
+                    <p>Awesome! You have now picked your college! You head over to your dorm and unpack your things. You look at your new shiny school 
+                        email and see that you have been sent an email about a College Nine orientation happening tonight. This is super important to 
+                        go to since you will learn a lot about the college, what to expect, and the core course as well as make new friends!</p>
                 </div>
             )
         },
@@ -295,9 +307,9 @@ const sections = {
             content: (
                 <div>
                     <h2>Welcome to John R. Lewis College!</h2>
-                    <img class="jrl"
-                        src="./img/"
-                        alt="">
+                    <img class="college_photo"
+                        src="./img/jrldorms.jpg"
+                        alt="John R. Lewis College dorms at UCSC">
                     </img>
                     <p>Congrats on choosing John R. Lewis College which is also known as JRL and College 10! This college was founded in 
                         2002 and has a theme of Social Justice and Community. JRL’s sister college is College Nine meaning the colleges 
@@ -324,8 +336,11 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's go to the John R. Lewis College orientation!</h2>
+                    <p>Awesome! You have now picked your college! You head over to your dorm and unpack your things. You look at your new shiny 
+                        school email and see that you have been sent an email about a John R. Lewis College orientation happening tonight. This is 
+                        super important to go to since you will learn a lot about the college, what to expect, and the core course as well as make new friends!
+</p>
                 </div>
             )
         },
@@ -343,9 +358,9 @@ const sections = {
             content: (
                 <div>
                     <h2>Welcome to Kresge College!</h2>
-                    <img class="kresge"
-                        src="./img/"
-                        alt="">
+                    <img class="college_photo"
+                        src="./img/kresgedorms.jpg"
+                        alt="New Kresge College dorms at UCSC">
                     </img>
                     <p>Congrats on choosing Kresge College, this college was founded in 1971. Here they are known for their writing and 
                         theme of Power and Representation, which explores the ways we represent ourselves as individuals in relation to 
@@ -374,8 +389,11 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's go to the Kresge College orientation!</h2>
+                    <p>Awesome! You have now picked your college! You head over to your dorm and unpack your things. You look at your new shiny school 
+                        email and see that you have been sent an email about a Kresge College orientation happening tonight. This is super important to go 
+                        to since you will learn a lot about the college, what to expect, and the core course as well as make new friends!
+</p>
                 </div>
             )
         },
@@ -393,9 +411,9 @@ const sections = {
             content: (
                 <div>
                     <h2>Welcome to Porter College!</h2>
-                    <img class="porter"
-                        src="./img/"
-                        alt="">
+                    <img class="college_photo"
+                        src="./img/porterdorms.jpg"
+                        alt="Porter College dorms at UCSC">
                     </img>
                     <p>Congrats on choosing Porter College, this college was founded in 1969 and was named after the Porter-Sesnon family who donated 
                         a grant. The theme relies on people to express themselves through a creative outlet as it’s one of education's key components 
@@ -427,8 +445,10 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's go to the Porter College orientation!</h2>
+                    <p>Awesome! You have now picked your college! You head over to your dorm and unpack your things. You look at your new shiny school email and see 
+                        that you have been sent an email about a Porter College orientation happening tonight. This is super important to go to since you will learn 
+                        a lot about the college, what to expect, and the core course as well as make new friends!</p>
                 </div>
             )
         },
@@ -446,9 +466,9 @@ const sections = {
             content: (
                 <div>
                     <h2>Welcome to Rachel Carson College!</h2>
-                    <img class="rcc"
-                        src="./img/"
-                        alt="">
+                    <img class="college_photo"
+                        src="./img/rccdorms.jpg"
+                        alt="Rachel Carson College dorms at UCSC">
                     </img>
                     <p>Congrats on choosing Rachel Carson College also known as RCC, this college was founded in 1972. Its theme is Environment and Society, 
                         which focuses on the environmental issues of the current era within a social, scientific, and political context. RCC is the sister 
@@ -474,8 +494,10 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's go to the Rachel Carson College orientation!</h2>
+                    <p>Awesome! You have now picked your college! You head over to your dorm and unpack your things. You look at your new shiny school email and see that you 
+                        have been sent an email about a Rachel Carson College orientation happening tonight. This is super important to go to since you will learn a lot about 
+                        the college, what to expect, and the core course as well as make new friends!</p>
                 </div>
             )
         },
@@ -493,9 +515,9 @@ const sections = {
             content: (
                 <div>
                     <h2>Welcome to Oakes College!</h2>
-                    <img class="oakes"
-                        src="./img/"
-                        alt="">
+                    <img class="college_photo"
+                        src="./img/oakesdorms.jpg"
+                        alt="Oakes College dorms at UCSC">
                     </img>
                     <p>Congrats on choosing Oakes College, this college was founded in 1972 and is located at the base of campus. Its theme is Communicating 
                         Diversity for a Just Society. Oakes' sister college is Rachel Carson, so close they blend and you won’t tell which is which.</p>
@@ -518,8 +540,10 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's go to the Oakes College orientation!</h2>
+                    <p>Awesome! You have now picked your college! You head over to your dorm and unpack your things. You look at your new shiny school email and 
+                        see that you have been sent an email about an Oakes College orientation happening tonight. This is super important to go to since you will 
+                        learn a lot about the college, what to expect, and the core course as well as make new friends!</p>
                 </div>
             )
         },
