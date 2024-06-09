@@ -596,10 +596,10 @@ function Game() {
             ) : (
                 // buttons! (patrick helped) 
                 <div>
-                    <button onClick={handleBack}>Back</button>
+
                     <div>{sections[currentSection][currentStep].content}</div>
                     {currentStep < sections[currentSection].length - 1 && (
-                        <button onClick={handleNext}>Next</button>
+                    <><button onClick={handleBack}>Back</button><button onClick={handleNext}>Next</button></>
                     )}
                 </div>
             )}
