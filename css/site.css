@@ -168,26 +168,45 @@ button{
 /*map of UCSC on start page*/
 .collegemap {
     max-height: 600px;
-    margin-left: 90px;
+
+    /*margin-left: 90px;*/
+    /*flex: 1 1 0 ;*/
 }
 
 .collegemap2 {
     max-width: 500px;
-    margin-left: 40px;
-    margin-top: 150px;
+    /*margin-left: 40px;*/
+    /*margin-top: 150px;*/
+    /*flex: 1 1 0 ;*/
 }
 
-.map_content{
-    display: flex; 
+.map_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
+
+.map_content img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.2s; /* Animation */
+}
+
+.map_content img:hover {
+    transform: scale(1.05); /* Zoom on hover */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Shadow on hover */
+}
+
 
 /* flex */
 .left {
-    flex: 1 1 0 ;
+    /*flex: 1 1 0 ;*/
 }
 
 .right {
-    flex: 1 1 0 ;
+    /*flex: 1 1 0 ;*/
 }
 
 /* *{
@@ -250,4 +269,26 @@ button{
 .right {
     flex: 1 1 0 ;
 }
-/*----------------------------------*/
+/*-----------------Next Button-----------------*/
+/*.next-button {*/
+/*    background-color: #ffcc00;*/
+/*    color: #001638;*/
+/*    margin: 10px auto 0;*/
+/*    line-height: 30px;*/
+/*    border: solid 3px #001638;*/
+/*    letter-spacing: 2px;*/
+/*    font-optical-sizing: auto;*/
+/*    font-weight: 900;*/
+/*    font-style: normal;*/
+/*    text-align: right;*/
+/*    justify-content: right;*/
+/*}*/
+
+.next-button {
+    float: right;
+}
+
+
+.flex {
+    display: flex;
+}

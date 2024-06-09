@@ -1100,7 +1100,7 @@ function Game() {
                         place for you to live you will also be taking a course dedicated to your college!</p>
                     <p> With that in mind, What college will you pick?</p>
                     <div class="college_content">
-                        <div class="left">
+                        <div class="left flex">
                             <button onClick={() => setCurrentSection('section1')}>Stevenson College</button>
                             <button onClick={() => setCurrentSection('section3')}>Merrill College</button>
                             <button onClick={() => setCurrentSection('section5')}>College Nine</button>
@@ -1108,7 +1108,7 @@ function Game() {
                             <button onClick={() => setCurrentSection('section9')}>Rachel Carson College</button>
                         </div>
 
-                        <div class="right">
+                        <div class="right flex">
                             <button onClick={() => setCurrentSection('section2')}>Cowell College</button>
                             <button onClick={() => setCurrentSection('section4')}>Crown College</button>
                             <button onClick={() => setCurrentSection('section6')}>John R. Lewis College</button>
@@ -1120,10 +1120,9 @@ function Game() {
             ) : (
                 // buttons! (patrick helped) 
                 <div>
-
                     <div>{sections[currentSection][currentStep].content}</div>
                     {currentStep < sections[currentSection].length - 1 && (
-                        <><button onClick={handleBack}>Back</button><button onClick={handleNext}>Next</button></>
+                        <><button onClick={handleBack}>Back</button><button className="next-button" onClick={handleNext}>Next</button></>
                     )}
                 </div>
             )}
