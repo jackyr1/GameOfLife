@@ -25,7 +25,7 @@ h3 {
 
 /*paragraph text */
 p {
-    font-size: 18px;
+    font-size: 23px;
     margin-left: 10px;
     margin-right: 10px;
     line-height: 22px;
@@ -90,6 +90,7 @@ h4 {
     color: #001638;
     display: block;
     margin: 0 auto;
+    margin-top: 10px;
     line-height: 30px;
     border: solid 3px #001638;
     letter-spacing: 2px;
