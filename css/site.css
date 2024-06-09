@@ -99,6 +99,11 @@ h4 {
     border: solid 5px #001638;
 }
 
+button{
+    background-color: #ffcc00;
+    font-size: 100%;
+}
+
 /*--------------------hides the info---------------*/
 .hidden {
     display: none;
