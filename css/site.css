@@ -25,7 +25,7 @@ h3 {
 
 /*paragraph text */
 p {
-    font-size: medium;
+    font-size: 18px;
     margin-left: 10px;
     margin-right: 10px;
     line-height: 22px;
@@ -89,16 +89,15 @@ h4 {
     background-color: #ffcc00;
     color: #001638;
     display: block;
+    margin: 0 auto;
     line-height: 30px;
-    position: absolute;
-    left: 50%;
     border: solid 3px #001638;
     letter-spacing: 2px;
 }
 
 button{
     background-color: #ffcc00;
-    font-size: 100%;
+    font-size: 110%;
     display: block;
     margin: 0 auto;
     margin-bottom: 10px;
@@ -129,6 +128,12 @@ button{
 /*map of UCSC on start page*/
 .collegemap {
     max-height: 600px;
+    margin-left: 10px;
+}
+.collegemap2 {
+    max-height: 350px;
+    margin-left: 90px;
+    margin-bottom: 100px;
 }
 
 .college_photo{
@@ -139,4 +144,5 @@ button{
     margin-right: 10px;
     float: right;
 }
+
 
