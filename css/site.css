@@ -241,6 +241,9 @@ button{
 /*dinning hall photos*/
 .dinninghall {
     max-width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* cornucopia */
