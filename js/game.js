@@ -1099,22 +1099,17 @@ function Game() {
                         awesome colleges to choose from. When picking your college keep in mind that not only is this a
                         place for you to live you will also be taking a course dedicated to your college!</p>
                     <p> With that in mind, What college will you pick?</p>
-                    <div class="college_content">
-                        <div class="left flex">
-                            <button onClick={() => setCurrentSection('section1')}>Stevenson College</button>
-                            <button onClick={() => setCurrentSection('section3')}>Merrill College</button>
-                            <button onClick={() => setCurrentSection('section5')}>College Nine</button>
-                            <button onClick={() => setCurrentSection('section7')}>Kresge College</button>
-                            <button onClick={() => setCurrentSection('section9')}>Rachel Carson College</button>
-                        </div>
-
-                        <div class="right flex">
-                            <button onClick={() => setCurrentSection('section2')}>Cowell College</button>
-                            <button onClick={() => setCurrentSection('section4')}>Crown College</button>
-                            <button onClick={() => setCurrentSection('section6')}>John R. Lewis College</button>
-                            <button onClick={() => setCurrentSection('section8')}>Porter College</button>
-                            <button onClick={() => setCurrentSection('section10')}>Oakes College</button>
-                        </div>
+                    <div className="collage-buttons">
+                        <button onClick={() => setCurrentSection('section1')}>Stevenson College</button>
+                        <button onClick={() => setCurrentSection('section3')}>Merrill College</button>
+                        <button onClick={() => setCurrentSection('section5')}>College Nine</button>
+                        <button onClick={() => setCurrentSection('section7')}>Kresge College</button>
+                        <button onClick={() => setCurrentSection('section9')}>Rachel Carson College</button>
+                        <button onClick={() => setCurrentSection('section2')}>Cowell College</button>
+                        <button onClick={() => setCurrentSection('section4')}>Crown College</button>
+                        <button onClick={() => setCurrentSection('section6')}>John R. Lewis College</button>
+                        <button onClick={() => setCurrentSection('section8')}>Porter College</button>
+                        <button onClick={() => setCurrentSection('section10')}>Oakes College</button>
                     </div>
                 </div>
             ) : (
@@ -1122,7 +1117,10 @@ function Game() {
                 <div>
                     <div>{sections[currentSection][currentStep].content}</div>
                     {currentStep < sections[currentSection].length - 1 && (
-                        <><button onClick={handleBack}>Back</button><button className="next-button" onClick={handleNext}>Next</button></>
+                        <>
+                            <button onClick={handleBack}>Back</button>
+                            <button className="next-button" onClick={handleNext}>Next</button>
+                        </>
                     )}
                 </div>
             )}
@@ -1131,7 +1129,7 @@ function Game() {
 }
 
 
-ReactDOM.render(<Game />, document.getElementById('game-root'));
+ReactDOM.render(<Game/>, document.getElementById('game-root'));
 
 /* api */
 // function handle_advice() {
