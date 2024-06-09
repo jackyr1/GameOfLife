@@ -163,7 +163,7 @@ const sections = {
                     <p>You are told that here at UCSC we have Safe Ride. This service provides a safe and reliable means of transit from one location to another on campus and ensures the
                         safety of students who feel endangered or unsafe during night hours. This is available from 7:00 p.m. to 12:00 a.m., seven days a week. </p>
                     <p>More valuable information to know about Safe Ride:</p>
-                    <ul>
+                    <ul class="list">
                         <li>Limit of 5 passengers per ride</li>
                         <li>Rides must be requested the same day</li>
                         <li>No rides to or from off-campus locations</li>
@@ -181,10 +181,10 @@ const sections = {
             content: (
                 <div>
                     <h2>End of the day!</h2>
-                    <p>Wow, what a thrilling first day at UCSC! You head back to your dorm and plan to hit the hay. You learned a lot of cool new information today and your brain needs some 
+                    <p>Wow, what a thrilling first day at UCSC! You head back to your dorm and plan to hit the hay. You learned a lot of cool new information today and your brain needs some
                         quality rest. You hug your Sammy the slug stuffed animal and drift off to sleep. You did it, and you survived your first day at UCSC. Congratulations!</p>
                     <h3>Here’s some inspiring advice for the road:</h3>
-                    
+                    <div id="advice"></div>
                 </div>
             )
         },
@@ -1099,16 +1099,23 @@ function Game() {
                         awesome colleges to choose from. When picking your college keep in mind that not only is this a
                         place for you to live you will also be taking a course dedicated to your college!</p>
                     <p> With that in mind, What college will you pick?</p>
-                    <button onClick={() => setCurrentSection('section1')}>Stevenson College</button>
-                    <button onClick={() => setCurrentSection('section2')}>Cowell College</button>
-                    <button onClick={() => setCurrentSection('section3')}>Merrill College</button>
-                    <button onClick={() => setCurrentSection('section4')}>Crown College</button>
-                    <button onClick={() => setCurrentSection('section5')}>College Nine</button>
-                    <button onClick={() => setCurrentSection('section6')}>John R. Lewis College</button>
-                    <button onClick={() => setCurrentSection('section7')}>Kresge College</button>
-                    <button onClick={() => setCurrentSection('section8')}>Porter College</button>
-                    <button onClick={() => setCurrentSection('section9')}>Rachel Carson College</button>
-                    <button onClick={() => setCurrentSection('section10')}>Oakes College</button>
+                    <div class="college_content">
+                        <div class="left">
+                            <button onClick={() => setCurrentSection('section1')}>Stevenson College</button>
+                            <button onClick={() => setCurrentSection('section3')}>Merrill College</button>
+                            <button onClick={() => setCurrentSection('section5')}>College Nine</button>
+                            <button onClick={() => setCurrentSection('section7')}>Kresge College</button>
+                            <button onClick={() => setCurrentSection('section9')}>Rachel Carson College</button>
+                        </div>
+
+                        <div class="right">
+                            <button onClick={() => setCurrentSection('section2')}>Cowell College</button>
+                            <button onClick={() => setCurrentSection('section4')}>Crown College</button>
+                            <button onClick={() => setCurrentSection('section6')}>John R. Lewis College</button>
+                            <button onClick={() => setCurrentSection('section8')}>Porter College</button>
+                            <button onClick={() => setCurrentSection('section10')}>Oakes College</button>
+                        </div>
+                    </div>
                 </div>
             ) : (
                 // buttons! (patrick helped) 
@@ -1126,3 +1133,37 @@ function Game() {
 
 
 ReactDOM.render(<Game />, document.getElementById('game-root'));
+
+/* api */
+// function handle_advice() {
+//     $.ajax({
+//         type: "GET",
+//         url: "https://api.adviceslip.com/advice",
+//         dataType: "json",
+//         success: (advice) => {
+//             $("#advice").html(`<div>${advice.text}</div>`);
+//         },
+//         error: (womp_womp) => {
+//             $("#advice").html(`<p>There was an error! Womp Womp.</p>`)
+//         }
+//     })
+// }
+
+function handle_advice() {
+    $.ajax({
+        type: "GET",
+        url: "https://api.adviceslip.com/advice",
+        dataType: "json",
+        success: (advice) => {
+            $("#advice").html(`<div>${advice.text}</div>`);
+        },
+        error: (womp_womp) => {
+            $("#advice").html(`<p>There was an error! Womp Womp.</p>`)
+        }
+    })
+
+    // Call the function when the page loads
+    $(document).ready(function () {
+        handle_advice();
+    });
+}

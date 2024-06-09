@@ -5,11 +5,20 @@
     background-color: rgba(255, 255, 255, 0.897);
     padding-top: 15px;
     margin-top: 30px;
-    padding-bottom: 80px;
+    padding-bottom: 30px;
     border: solid 10px #001638;
 }
 
-/*tidal page
+/*yellow background*/
+body {
+    background-color: #ffcc00;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-size: 100%;
+}
+
+
+/*----------------Text stuff---------------------*/
 /*game of life title*/
 h1 {
     padding-top: 55px;
@@ -22,6 +31,10 @@ h2 {
     font-size: xx-large;
     color: #001638;
     text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 35pt;
 }
 
 /*lower header*/
@@ -29,8 +42,13 @@ h3 {
     font-size: 22px;
     color: #001638;
     margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 
+/*game of life title*/
 h4 {
     padding-top: 50px;
     color: #001638;
@@ -40,6 +58,10 @@ h4 {
     letter-spacing: 3px;
     font-weight: lighter;
     margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 h5 {
@@ -47,6 +69,10 @@ h5 {
     font-weight: bold;
     color: #001638;
     margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 /*paragraph text */
@@ -55,27 +81,9 @@ p {
     margin-left: 10px;
     margin-right: 10px;
     line-height: 22px;
-}
-
-/*yellow background*/
-body {
-    background-color: #ffcc00;
-    padding-left: 70px;
-    padding-right: 70px;
-    background-size: 100%;
-}
-
-/*slug pic*/
-.slug {
-    display: block;
-    margin: 1px;
-    max-width: 120px;
-}
-
-/*welcome*/
-.welcome {
-    font-size: 25px;
-    margin: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 /*UCSC title*/
@@ -86,7 +94,27 @@ body {
     left: 205px;  
     color: #001638;
     font-weight: bold;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
+
+/*welcome*/
+.welcome {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.list {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 22px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+/*-------------------------------------*/
 
 
 /*----------------button stuff---------------------*/
@@ -100,15 +128,22 @@ body {
     line-height: 30px;
     border: solid 3px #001638;
     letter-spacing: 2px;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 
 button{
     background-color: #ffcc00;
     font-size: 120%;
-    display: block;
     margin: 0 auto;
-    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+/*-----------------------------------*/
+
 
 /*--------------------hides the info---------------*/
 .hidden {
@@ -126,21 +161,52 @@ button{
     padding-top: 10px;
     border: solid 2px aliceblue;
 } */
+/*-----------------------------------*/
 
-/*photos for dorms*/
-.college_photo {
-    max-width: 300px;
-}
 
+/*--------------------First page Map--------------*/
 /*map of UCSC on start page*/
 .collegemap {
     max-height: 600px;
     margin-left: 90px;
 }
+
 .collegemap2 {
-    max-height: 350px;
-    margin-left: 90px;
-    margin-bottom: 100px;
+    max-width: 500px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+.map_content{
+    display: flex; 
+}
+
+/* flex */
+.left {
+    flex: 1 1 0 ;
+}
+
+.right {
+    flex: 1 1 0 ;
+}
+
+/* *{
+    outline: solid red; 
+}  */
+/*-----------------------------------*/
+
+
+/*--------------------Photos--------------*/
+/*slug pic*/
+.slug {
+    display: block;
+    margin: 1px;
+    max-width: 120px;
+}
+
+/*photos for dorms*/
+.college_photo {
+    max-width: 300px;
 }
 
 /*college photos*/
@@ -167,5 +233,21 @@ button{
     margin-right: 10px;
     float: right;
 }
+/*-----------------------------------*/
 
 
+/*--------------------College choice--------------*/
+.college_content {
+    display: flex;
+    padding-top: 10px;
+}
+
+/* flex */
+.left {
+    flex: 1 1 0 ;
+}
+
+.right {
+    flex: 1 1 0 ;
+}
+/*----------------------------------*/
