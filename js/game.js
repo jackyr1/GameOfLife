@@ -75,8 +75,15 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's visit the dinning hall!</h2>
+                    <p>After your orientation, you hear a few folks chatting about going to the Stevenson/Cowell dining hall. You hear your stomach grumble and it doesn’t sound like a bad 
+                        idea! You leave the orientation and follow the group to the dining hall. You remember that you have a meal plan and you can get in with one swipe of your ID! UCSC 
+                        offers a convenient flexi-dollars system tied to your student ID card to purchase meals as well as a new 3-tier point system (Blue, Gold, Banana) with varying 
+                        amounts of points that equate to meal swipes. You can also use these points to go to some of the yummy spots on campus, including the Stevenson Coffee House. That’s 
+                        right nearby! You enter the dining hall and grab a plate. They are serving popcorn chicken!! Mmmm, your favorite! If popcorn chicken isn’t your thing, or if you want 
+                        to add something else to your meal, the dining halls also have a place where you can build a sandwich, pizza, a salad bar, fruit, and decadent desserts! You can also 
+                        check out what the dining halls are serving using the UCSC Menu app. There is also a website where you can check the menu at ‘nutrition.sa.ucsc.edu.’ You grub on your 
+                        popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                 </div>
             )
         },
@@ -161,7 +168,9 @@ const sections = {
                         see if you have any updates in your portal, and proceed to go into your canvas to look at the modules for your first
                         UCSC classes! The presenter shows you how to look up resources online on your portal. First, you go into your portal
                         and look at the resources section. Then, you have a list of resources available to you to help you get started at UCSC.
-                        The presenter wraps the orientation up by wishing you the best on your UCSC journey and thanks you for your time. Awesome! You feel like you have a good grasp on how to get in contact with help on campus. You are glad you went to the orientation to gain insight into resources on campus! You also saw a couple of friendly faces while you were there. </p>
+                        The presenter wraps the orientation up by wishing you the best on your UCSC journey and thanks you for your time. Awesome! 
+                        You feel like you have a good grasp on how to get in contact with help on campus. You are glad you went to the orientation 
+                        to gain insight into resources on campus! You also saw a couple of friendly faces while you were there. </p>
                 </div>
             )
         },
@@ -169,8 +178,17 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's visit the dinning hall!</h2>
+                    <p>After your orientation, you hear a few folks chatting about going to the Stevenson/Cowell dining hall. You hear your stomach 
+                        grumble and it doesn’t sound like a bad idea! You leave the orientation and follow the group to the dining hall. You remember 
+                        that you have a meal plan and you can get in with one swipe of your ID! UCSC offers a convenient flexi-dollars system tied 
+                        to your student ID card to purchase meals as well as a new 3-tier point system (Blue, Gold, Banana) with varying amounts of 
+                        points that equate to meal swipes. You can also use these points to go to some of the yummy spots on campus, including the 
+                        Stevenson Coffee House. That’s right nearby! You enter the dining hall and grab a plate. They are serving popcorn chicken!! 
+                        Mmmm, your favorite! If popcorn chicken isn’t your thing, or if you want to add something else to your meal, the dining halls 
+                        also have a place where you can build a sandwich, pizza, a salad bar, fruit, and decadent desserts! You can also check out 
+                        what the dining halls are serving using the UCSC Menu app. There is also a website where you can check the menu at 
+                        ‘nutrition.sa.ucsc.edu.’ You grub on your popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                 </div>
             )
         },
@@ -258,8 +276,16 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's visit the dinning hall!</h2>
+                    <p>After your orientation, you hear a few folks chatting about going to the Crown/Merrill dining hall. You hear your stomach grumble and it 
+                        doesn’t sound like a bad idea! You leave the orientation and follow the group to the dining hall. You remember that you have a meal plan 
+                        and you can get in with one swipe of your ID! UCSC offers a convenient flexi-dollars system tied to your student ID card to purchase meals 
+                        as well as a new 3-tier point system (Blue, Gold, Banana) with varying amounts of points that equate to meal swipes. You can also use these 
+                        points to go to some of the yummy spots on campus, including Banana Joes. That’s right nearby! You enter the dining hall and grab a plate. 
+                        They are serving popcorn chicken!! Mmmm, your favorite! If popcorn chicken isn’t your thing, or if you want to add something else to your 
+                        meal, the dining halls also have a place where you can build a sandwich, pizza, a salad bar, fruit, and decadent desserts! You can also 
+                        check out what the dining halls are serving using the UCSC Menu app. There is also a website where you can check the menu at 
+                        ‘nutrition.sa.ucsc.edu.’ You grub on your popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                 </div>
             )
         },
@@ -347,8 +373,16 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's visit the dinning hall!</h2>
+                    <p>After your orientation, you hear a few folks chatting about going to the Crown/Merrill dining hall. You hear your stomach grumble and it 
+                        doesn’t sound like a bad idea! You leave the orientation and follow the group to the dining hall. You remember that you have a meal plan 
+                        and you can get in with one swipe of your ID! UCSC offers a convenient flexi-dollars system tied to your student ID card to purchase meals 
+                        as well as a new 3-tier point system (Blue, Gold, Banana) with varying amounts of points that equate to meal swipes. You can also use 
+                        these points to go to some of the yummy spots on campus, including Banana Joes. That’s right nearby! You enter the dining hall and grab a 
+                        plate. They are serving popcorn chicken!! Mmmm, your favorite! If popcorn chicken isn’t your thing, or if you want to add something else to 
+                        your meal, the dining halls also have a place where you can build a sandwich, pizza, a salad bar, fruit, and decadent desserts! You can also 
+                        check out what the dining halls are serving using the UCSC Menu app. There is also a website where you can check the menu at ‘nutrition.sa.ucsc.edu.’ 
+                        You grub on your popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                 </div>
             )
         },
@@ -434,12 +468,20 @@ const sections = {
                 </div>
             )
         },
-         // dinning hall
-         {
+        // dinning hall
+        {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's visit the dinning hall!</h2>
+                    <p>After your orientation, you hear a few folks chatting about going to the College 9/10 dining hall. You hear your stomach grumble and it doesn’t 
+                        sound like a bad idea! You leave the orientation and follow the group to the dining hall. You remember that you have a meal plan and you can get 
+                        in with one swipe of your ID! UCSC offers a convenient flexi-dollars system tied to your student ID card to purchase meals as well as a new 3-tier 
+                        point system (Blue, Gold, Banana) with varying amounts of points that equate to meal swipes. You can also use these points to go to some of the 
+                        yummy spots on campus, including the University Center Bistro and Cafe. That’s right nearby! You enter the dining hall and grab a plate. They are 
+                        serving popcorn chicken!! Mmmm, your favorite! If popcorn chicken isn’t your thing, or if you want to add something else to your meal, the dining 
+                        halls also have a place where you can build a sandwich, pizza, a salad bar, fruit, and decadent desserts! You can also check out what the dining 
+                        halls are serving using the UCSC Menu app. There is also a website where you can check the menu at ‘nutrition.sa.ucsc.edu.’ You grub on your popcorn 
+                        chicken and grab a cone of vanilla soft serve on your way out. </p>
                 </div>
             )
         },
@@ -517,12 +559,20 @@ const sections = {
                 </div>
             )
         },
-         // dinning hall
-         {
+        // dinning hall
+        {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's visit the dinning hall!</h2>
+                    <p>After your orientation, you hear a few folks chatting about going to the College 9/10 dining hall. You hear your stomach grumble and it doesn’t 
+                        sound like a bad idea! You leave the orientation and follow the group to the dining hall. You remember that you have a meal plan and you can get 
+                        in with one swipe of your ID! UCSC offers a convenient flexi-dollars system tied to your student ID card to purchase meals as well as a new 3-tier 
+                        point system (Blue, Gold, Banana) with varying amounts of points that equate to meal swipes. You can also use these points to go to some of the 
+                        yummy spots on campus, including the University Center Bistro and Cafe. That’s right nearby! You enter the dining hall and grab a plate. They are 
+                        serving popcorn chicken!! Mmmm, your favorite! If popcorn chicken isn’t your thing, or if you want to add something else to your meal, the dining 
+                        halls also have a place where you can build a sandwich, pizza, a salad bar, fruit, and decadent desserts! You can also check out what the dining 
+                        halls are serving using the UCSC Menu app. There is also a website where you can check the menu at ‘nutrition.sa.ucsc.edu.’ You grub on your popcorn 
+                        chicken and grab a cone of vanilla soft serve on your way out. </p>
                 </div>
             )
         },
@@ -602,12 +652,20 @@ const sections = {
                 </div>
             )
         },
-         // dinning hall
-         {
+        // dinning hall
+        {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's visit the dinning hall!</h2>
+                    <p>After your orientation, you hear a few folks chatting about going to the Porter/Kresge dining hall. You hear your stomach grumble and it 
+                        doesn’t sound like a bad idea! You leave the orientation and follow the group to the dining hall. You remember that you have a meal plan 
+                        and you can get in with one swipe of your ID! UCSC offers a convenient flexi-dollars system tied to your student ID card to purchase meals 
+                        as well as a new 3-tier point system (Blue, Gold, Banana) with varying amounts of points that equate to meal swipes. You can also use these 
+                        points to go to some of the yummy spots on campus, including Porter Market. That’s right nearby! You enter the dining hall and grab a plate. 
+                        They are serving popcorn chicken!! Mmmm, your favorite! If popcorn chicken isn’t your thing, or if you want to add something else to your meal, 
+                        the dining halls also have a place where you can build a sandwich, pizza, a salad bar, fruit, and decadent desserts! You can also check out what 
+                        the dining halls are serving using the UCSC Menu app. There is also a website where you can check the menu at ‘nutrition.sa.ucsc.edu.’ You grub 
+                        on your popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                 </div>
             )
         },
@@ -688,12 +746,19 @@ const sections = {
                 </div>
             )
         },
-         // dinning hall
-         {
+        // dinning hall
+        {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's visit the dinning hall!</h2>
+                    <p>After your orientation, you hear a few folks chatting about going to the Porter/Kresge dining hall. You hear your stomach grumble and it doesn’t sound like a 
+                        bad idea! You leave the orientation and follow the group to the dining hall. You remember that you have a meal plan and you can get in with one swipe of your 
+                        ID! UCSC offers a convenient flexi-dollars system tied to your student ID card to purchase meals as well as a new 3-tier point system (Blue, Gold, Banana) with 
+                        varying amounts of points that equate to meal swipes. You can also use these points to go to some of the yummy spots on campus, including the Porter Market. 
+                        That’s right nearby! You enter the dining hall and grab a plate. They are serving popcorn chicken!! Mmmm, your favorite! If popcorn chicken isn’t your thing, 
+                        or if you want to add something else to your meal, the dining halls also have a place where you can build a sandwich, pizza, a salad bar, fruit, and decadent 
+                        desserts! You can also check out what the dining halls are serving using the UCSC Menu app. There is also a website where you can check the menu at ‘nutrition.sa.ucsc.edu.’ 
+                        You grub on your popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                 </div>
             )
         },
@@ -768,12 +833,19 @@ const sections = {
                 </div>
             )
         },
-         // dinning hall
-         {
+        // dinning hall
+        {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                    <h2>Let's visit the dinning hall!</h2>
+                    <p>After your orientation, you hear a few folks chatting about going to the Rachel Carson/Oakes dining hall. This dining hall is brand new and opened in 2023! You 
+                        hear your stomach grumble and it doesn’t sound like a bad idea! You leave the orientation and follow the group to the dining hall. You remember that you have a 
+                        meal plan and you can get in with one swipe of your ID! UCSC offers a convenient flexi-dollars system tied to your student ID card to purchase meals as well as a 
+                        new 3-tier point system (Blue, Gold, Banana) with varying amounts of points that equate to meal swipes. You can also use these points to go to some of the yummy 
+                        spots on campus, including Oakes Cafe. That’s right nearby! You enter the dining hall and grab a plate. They are serving popcorn chicken!! Mmmm, your favorite! 
+                        If popcorn chicken isn’t your thing, or if you want to add something else to your meal, the dining halls also have a place where you can build a sandwich, pizza, 
+                        a salad bar, fruit, and decadent desserts! You can also check out what the dining halls are serving using the UCSC Menu app. There is also a website where you can 
+                        check the menu at ‘nutrition.sa.ucsc.edu.’ You grub on your popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                 </div>
             )
         },
@@ -846,12 +918,20 @@ const sections = {
                 </div>
             )
         },
-          // dinning hall
-          {
+        // dinning hall
+        {
             content: (
                 <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
+                   <h2>Let's visit the dinning hall!</h2>
+                    <p>After your orientation, you hear a few folks chatting about going to the Rachel Carson/Oakes dining hall. This dining hall is brand new 
+                        and opened in 2023! You hear your stomach grumble and it doesn’t sound like a bad idea! You leave the orientation and follow the group 
+                        to the dining hall. You remember that you have a meal plan and you can get in with one swipe of your ID! UCSC offers a convenient 
+                        flexi-dollars system tied to your student ID card to purchase meals as well as a new 3-tier point system (Blue, Gold, Banana) with 
+                        varying amounts of points that equate to meal swipes. You can also use these points to go to some of the yummy spots on campus, including 
+                        Oakes Cafe. That’s right nearby! You enter the dining hall and grab a plate. They are serving popcorn chicken!! Mmmm, your favorite! If popcorn 
+                        chicken isn’t your thing, or if you want to add something else to your meal, the dining halls also have a place where you can build a sandwich, 
+                        pizza, a salad bar, fruit, and decadent desserts! You can also check out what the dining halls are serving using the UCSC Menu app. There is also 
+                        a website where you can check the menu at ‘nutrition.sa.ucsc.edu.’ You grub on your popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                 </div>
             )
         },
@@ -917,7 +997,7 @@ function Game() {
 
                     <div>{sections[currentSection][currentStep].content}</div>
                     {currentStep < sections[currentSection].length - 1 && (
-                    <><button onClick={handleBack}>Back</button><button onClick={handleNext}>Next</button></>
+                        <><button onClick={handleBack}>Back</button><button onClick={handleNext}>Next</button></>
                     )}
                 </div>
             )}
