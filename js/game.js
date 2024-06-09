@@ -1,5 +1,28 @@
+const { useState, useEffect } = React;
 
-const { useState } = React;
+const Advice = () => {
+    // Patrick explained 'useEffect' to me
+    useEffect(() => {
+        $.ajax({
+            url: 'https://api.adviceslip.com/advice',
+            type: 'GET',
+            dataType: "json",
+            success: function (data) {
+                $('.advice').text(data.slip.advice);
+            },
+            error: function (womp_womp) {
+                console.log(womp_womp);
+            }
+        })
+    }, []);
+
+    return (
+        <>
+            <div className="advice"></div>
+        </>
+    )
+}
+
 
 // questions
 const sections = {
@@ -184,7 +207,7 @@ const sections = {
                     <p>Wow, what a thrilling first day at UCSC! You head back to your dorm and plan to hit the hay. You learned a lot of cool new information today and your brain needs some
                         quality rest. You hug your Sammy the slug stuffed animal and drift off to sleep. You did it, and you survived your first day at UCSC. Congratulations!</p>
                     <h3>Here’s some inspiring advice for the road:</h3>
-                    <div id="advice"></div>
+                    <Advice />
                 </div>
             )
         },
@@ -1113,13 +1136,18 @@ function Game() {
                     </div>
                 </div>
             ) : (
-                // buttons! (patrick helped) 
+                // buttons! (patrick helped)
                 <div>
                     <div>{sections[currentSection][currentStep].content}</div>
                     {currentStep < sections[currentSection].length - 1 && (
                         <>
                             <button onClick={handleBack}>Back</button>
                             <button className="next-button" onClick={handleNext}>Next</button>
+                        </>
+                    )}
+                    {currentStep >= sections[currentSection].length - 1 && (
+                        <>
+                            <button onClick={handleBack} className={"end-back-button"}>Back to beginning!</button>
                         </>
                     )}
                 </div>
@@ -1164,3 +1192,19 @@ function handle_advice() {
         handle_advice();
     });
 }
+
+$(document).ready(function () {
+    $.ajax({
+        type: "GET",
+        url: "https://api.adviceslip.com/advice",
+        dataType: "json",
+        success: (advice) => {
+            console.log("success loading advice");
+            $("#advice").html(`<div>${advice.slip.advice}</div>`);
+        },
+        error: (womp_womp) => {
+            console.log("failure to load advice");
+            $("#advice").html(`<p>There was an error! Womp Womp.</p>`)
+        }
+    })
+})

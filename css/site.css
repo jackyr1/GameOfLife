@@ -301,3 +301,12 @@ button{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
 }
+
+.advice {
+    text-align: center;
+}
+
+.end-back-button {
+    display: block;
+    align-self: center;
+}
