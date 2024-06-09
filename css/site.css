@@ -2,7 +2,7 @@
 /*this is the main part of the game
 /*white section of the website with in formation*/
 .minor-section {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.897);
     padding-top: 15px;
     margin-top: 30px;
     padding-bottom: 80px;
@@ -49,11 +49,14 @@ h1 {
 }
 
 h4 {
-    padding-top: 55px;
+    padding-top: 50px;
     color: #001638;
-    margin-left: 20px;
-    padding-left: 244px;
-    font-size: 22px;
+    margin-left: 35px;
+    padding-left: 300px;
+    font-size: 33px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    margin-top: 20px;
 }
 
 /*slug pic*/
@@ -71,11 +74,12 @@ h4 {
 
 /*UCSC title*/
 .text2 {
-    font-size: 50px;
+    font-size: 70px;
     position: absolute;
-    top: 60px;
+    top: 45px;
     left: 205px;  
     color: #001638;
+    font-weight: bold;
 }
 
 
@@ -87,16 +91,9 @@ h4 {
     display: block;
     line-height: 30px;
     position: absolute;
-    left: 50%;/*UCSC title*/
-.text2 {
-    font-size: 56px;
-    position: absolute;
-    top: 15px;
-    left: 205px;  
-    color: #001638;
-}
-    top: 78%;
-    border: solid 5px #001638;
+    left: 50%;
+    border: solid 3px #001638;
+    letter-spacing: 2px;
 }
 
 button{
@@ -142,3 +139,4 @@ button{
     margin-right: 10px;
     float: right;
 }
+
