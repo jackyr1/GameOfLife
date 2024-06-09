@@ -1,6 +1,6 @@
 
 //ucsc big word title
-//$("#output").html('<div class="text2"><p>' + "UCSC" + '</p></div>');
+$("#output").html('<div class="text2">UCSC</div>');
 
 //hides and makes info appear
 $("#start").click(function(){
