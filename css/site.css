@@ -304,6 +304,11 @@ button{
 
 .advice {
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    padding: 20px;
 }
 
 .end-back-button {
