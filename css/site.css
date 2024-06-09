@@ -308,7 +308,9 @@ button{
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
+    font-size: 13pt;
     padding: 20px;
+    color: #001638;
 }
 
 .end-back-button {

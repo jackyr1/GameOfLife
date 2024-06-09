@@ -23,6 +23,102 @@ const Advice = () => {
     )
 }
 
+const HelpfulStuff = () => {
+    return (
+        <div>
+            <h2>UCSC Cornucopia!</h2>
+            <p>After your trip to the dining hall, you hear about an information fair that's happening on east field. “Hmm, I should check it out to learn about all the resources UCSC has
+                to offer,” you think to yourself. </p>
+            <img class="cornucopia"
+                src="./img/cornucopia.jpg"
+                alt="The cornucopia at UCSC">
+            </img>
+            <h3>Let's visit the DRC Booth!</h3>
+            <p>The person at the booth explains that the DRC or Disability Resource Center, is an organization on campus that
+                is in place to make sure that any students with disabilities are given the resources they need. By applying for
+                assistance through the DRC you will have access to many different resources. They provide a variety of accommodations
+                including, coursework, exam, graduate student, in-class, and temporary injury/condition accommodations. They also
+                provide non-school related accommodations including housing, emotional support animals, pregnant students, service animals,
+                and transport accommodations. They tell you that if you are in need of any of these accommodations you can apply online through
+                their website and will receive the assistance that you need!</p>
+            <h3>After the DRC Booth, how about we check out the Advising Booth!</h3>
+            <p>They start their monologue about the advising resources saying, “Are you stuck or confused with what the hell you’re doing in college?
+                Well, college advisors are here to help you!” Now you have access to an academic advisor specific to your college, as well as one specific
+                to your proposed major. UCSC has several types of advisors, including major advisors, college advisors, and general academic advisors.
+                You can visit the advising website at UCSC Advising. You can then log in to Slug Success, which is a system for scheduling appointments.
+                You can access Slug Success via the advising website or directly through your UCSC portal. Use your UCSC credentials (username and password)
+                to log in and then navigate to the appointment scheduler. Once you are logged in, you will navigate to the "Schedule an Appointment" feature.
+                Select the type of advising you need (e.g., major advising, college advising, academic planning), choose your advisor and appointment time,
+                and follow the instructions to choose an available date and time that works with your schedule.</p>
+            <h3>After wondering around for a bit you find the Tutoring Booth! </h3>
+            <p>You learn from this booth that tutoring is an amazing resource to have on campus, from a one off tutoring session to help you get past a
+                particularly challenging concept or quarter long tutoring to get you through a grueling class, knowing how to access the tutoring resources is
+                crucial in surviving the UCSC academic world. Accessing the tutoring services is relatively easy once you know what LSS is. LSS is the online
+                tutor hub that students can use to sign up for any of the tutors available in almost any subject. </p>
+            <h3>Lets learn about CAPS at the CAPS Booth!</h3>
+            <p>you learn from the person working the booth that CAPS stands for Counseling and Psychological Services. You learn that CAPS is a place where
+                students can go to find counseling either one on one or in groups. It's also a place that students can go to get help learning how to manage
+                stressors, build new skills and increase confidence, resolve problems, and identify alternatives to help in becoming successful as a UCSC student.
+                They have multiple different services and resources such as the Let's Talk drop in program, Peer education program, Campus Coaching programs,
+                Get help now, and CAPS calendar.  </p>
+            <h3>Lets move on to some final boots!</h3>
+        </div>
+    )
+}
+
+const HelpfulStuff2 = () => {
+    return (
+        <div>
+            <h2>More Booths!</h2>
+            <p>Here we have some more booths to visit, specifically a pretty important one, Safe Partying. Going to parties at college is inevitable so making sure you
+                know what to expect and how to handle situations is super important!</p>
+            <h3>Safe Partying!</h3>
+            <p>At this booth you are given the principles of Party Like a Slug, these principles include: </p>
+            <h5>-Slow down, be safe and sensible,</h5>
+            <p>The booth worker explains that this incorporates the ideas of setting yourself limits when partying, taking breaks between drinks, always having real
+                food before drinking and always having water available. </p>
+            <h5>-Look out for one another,</h5>
+            <p>This is the practice of being willing to step up and help others even if you don’t know them, being able to recruit your own friends in a situation you
+                think needs intervention, and knowing when to remove yourself or someone else from a situation. </p>
+            <h5>-Understand the Facts,</h5>
+            <p>This means that people must understand that alcohol is the most used and abused substance, that alcohol has a lethal dosage, and there are very real risks
+                of excessive drinking.</p>
+            <h5>-Get help when needed,</h5>
+            <p>This ensures that students are confident in asking others for help or in calling the authorities if they end up in a dangerous situation, or if someone is
+                showing signs of an overdose on any substance.</p>
+            <h3>Let's learn about SHOP!</h3>
+            <p>After explaining these principles you are told about SHOP, which stands for Student Health Outreach and Promotion. SHOP is where students can go to learn about
+                health and wellness in a safe, non-judgmental environment. They offer information and support on topics such as alcohol and drug use, sexual health, and college
+                life balance. SHOP also offers access to birth control, free condoms and dental dams, as well as free Naloxone and Fentanyl testing strips. </p>
+            <h3>Why don't we check out our final booth, Safe Ride!</h3>
+            <p>You are told that here at UCSC we have Safe Ride. This service provides a safe and reliable means of transit from one location to another on campus and ensures the
+                safety of students who feel endangered or unsafe during night hours. This is available from 7:00 p.m. to 12:00 a.m., seven days a week. </p>
+            <p>More valuable information to know about Safe Ride:</p>
+            <ul class="list">
+                <li>Limit of 5 passengers per ride</li>
+                <li>Rides must be requested the same day</li>
+                <li>No rides to or from off-campus locations</li>
+                <li>Intoxicated and/or disorderly students will not be transported</li>
+                <li>Food and alcohol are NOT allowed in the shuttle</li>
+                <li>Safe Ride reserves the right to refuse transport</li>
+                <li>Safe Ride may provide walking escorts in lieu of using a vehicle</li>
+            </ul>
+            <p>This is the last booth that you haven't already been to and by now it's pretty late. So you head back to your dorm and grab a few stickers on the way out!</p>
+        </div>
+    )
+}
+
+const Conclusion = () => {
+    return (
+        <div>
+            <h2>End of the day!</h2>
+            <p>Wow, what a thrilling first day at UCSC! You head back to your dorm and plan to hit the hay. You learned a lot of cool new information today and your brain needs some
+                quality rest. You hug your Sammy the slug stuffed animal and drift off to sleep. You did it, and you survived your first day at UCSC. Congratulations!</p>
+            <h3>Here’s some inspiring advice for the road:</h3>
+            <Advice />
+        </div>
+    )
+}
 
 // questions
 const sections = {
@@ -117,98 +213,19 @@ const sections = {
         // helpful stuff
         {
             content: (
-                <div>
-                    <h2>UCSC Cornucopia!</h2>
-                    <p>After your trip to the dining hall, you hear about an information fair that's happening on east field. “Hmm, I should check it out to learn about all the resources UCSC has
-                        to offer,” you think to yourself. </p>
-                    <img class="cornucopia"
-                        src="./img/cornucopia.jpg"
-                        alt="The cornucopia at UCSC">
-                    </img>
-                    <h3>Let's visit the DRC Booth!</h3>
-                    <p>The person at the booth explains that the DRC or Disability Resource Center, is an organization on campus that
-                        is in place to make sure that any students with disabilities are given the resources they need. By applying for
-                        assistance through the DRC you will have access to many different resources. They provide a variety of accommodations
-                        including, coursework, exam, graduate student, in-class, and temporary injury/condition accommodations. They also
-                        provide non-school related accommodations including housing, emotional support animals, pregnant students, service animals,
-                        and transport accommodations. They tell you that if you are in need of any of these accommodations you can apply online through
-                        their website and will receive the assistance that you need!</p>
-                    <h3>After the DRC Booth, how about we check out the Advising Booth!</h3>
-                    <p>They start their monologue about the advising resources saying, “Are you stuck or confused with what the hell you’re doing in college?
-                        Well, college advisors are here to help you!” Now you have access to an academic advisor specific to your college, as well as one specific
-                        to your proposed major. UCSC has several types of advisors, including major advisors, college advisors, and general academic advisors.
-                        You can visit the advising website at UCSC Advising. You can then log in to Slug Success, which is a system for scheduling appointments.
-                        You can access Slug Success via the advising website or directly through your UCSC portal. Use your UCSC credentials (username and password)
-                        to log in and then navigate to the appointment scheduler. Once you are logged in, you will navigate to the "Schedule an Appointment" feature.
-                        Select the type of advising you need (e.g., major advising, college advising, academic planning), choose your advisor and appointment time,
-                        and follow the instructions to choose an available date and time that works with your schedule.</p>
-                    <h3>After wondering around for a bit you find the Tutoring Booth! </h3>
-                    <p>You learn from this booth that tutoring is an amazing resource to have on campus, from a one off tutoring session to help you get past a
-                        particularly challenging concept or quarter long tutoring to get you through a grueling class, knowing how to access the tutoring resources is
-                        crucial in surviving the UCSC academic world. Accessing the tutoring services is relatively easy once you know what LSS is. LSS is the online
-                        tutor hub that students can use to sign up for any of the tutors available in almost any subject. </p>
-                    <h3>Lets learn about CAPS at the CAPS Booth!</h3>
-                    <p>you learn from the person working the booth that CAPS stands for Counseling and Psychological Services. You learn that CAPS is a place where
-                        students can go to find counseling either one on one or in groups. It's also a place that students can go to get help learning how to manage
-                        stressors, build new skills and increase confidence, resolve problems, and identify alternatives to help in becoming successful as a UCSC student.
-                        They have multiple different services and resources such as the Let's Talk drop in program, Peer education program, Campus Coaching programs,
-                        Get help now, and CAPS calendar.  </p>
-                    <h3>Lets move on to some final boots!</h3>
-                </div>
+                <HelpfulStuff />
             )
         },
         // more helpful stuff
         {
             content: (
-                <div>
-                    <h2>More Booths!</h2>
-                    <p>Here we have some more booths to visit, specifically a pretty important one, Safe Partying. Going to parties at college is inevitable so making sure you
-                        know what to expect and how to handle situations is super important!</p>
-                    <h3>Safe Partying!</h3>
-                    <p>At this booth you are given the principles of Party Like a Slug, these principles include: </p>
-                    <h5>-Slow down, be safe and sensible,</h5>
-                    <p>The booth worker explains that this incorporates the ideas of setting yourself limits when partying, taking breaks between drinks, always having real
-                        food before drinking and always having water available. </p>
-                    <h5>-Look out for one another,</h5>
-                    <p>This is the practice of being willing to step up and help others even if you don’t know them, being able to recruit your own friends in a situation you
-                        think needs intervention, and knowing when to remove yourself or someone else from a situation. </p>
-                    <h5>-Understand the Facts,</h5>
-                    <p>This means that people must understand that alcohol is the most used and abused substance, that alcohol has a lethal dosage, and there are very real risks
-                        of excessive drinking.</p>
-                    <h5>-Get help when needed,</h5>
-                    <p>This ensures that students are confident in asking others for help or in calling the authorities if they end up in a dangerous situation, or if someone is
-                        showing signs of an overdose on any substance.</p>
-                    <h3>Let's learn about SHOP!</h3>
-                    <p>After explaining these principles you are told about SHOP, which stands for Student Health Outreach and Promotion. SHOP is where students can go to learn about
-                        health and wellness in a safe, non-judgmental environment. They offer information and support on topics such as alcohol and drug use, sexual health, and college
-                        life balance. SHOP also offers access to birth control, free condoms and dental dams, as well as free Naloxone and Fentanyl testing strips. </p>
-                    <h3>Why don't we check out our final booth, Safe Ride!</h3>
-                    <p>You are told that here at UCSC we have Safe Ride. This service provides a safe and reliable means of transit from one location to another on campus and ensures the
-                        safety of students who feel endangered or unsafe during night hours. This is available from 7:00 p.m. to 12:00 a.m., seven days a week. </p>
-                    <p>More valuable information to know about Safe Ride:</p>
-                    <ul class="list">
-                        <li>Limit of 5 passengers per ride</li>
-                        <li>Rides must be requested the same day</li>
-                        <li>No rides to or from off-campus locations</li>
-                        <li>Intoxicated and/or disorderly students will not be transported</li>
-                        <li>Food and alcohol are NOT allowed in the shuttle</li>
-                        <li>Safe Ride reserves the right to refuse transport</li>
-                        <li>Safe Ride may provide walking escorts in lieu of using a vehicle</li>
-                    </ul>
-                    <p>This is the last booth that you haven't already been to and by now it's pretty late. So you head back to your dorm and grab a few stickers on the way out!</p>
-                </div>
+                <HelpfulStuff2 />
             )
         },
         // conclusion
         {
             content: (
-                <div>
-                    <h2>End of the day!</h2>
-                    <p>Wow, what a thrilling first day at UCSC! You head back to your dorm and plan to hit the hay. You learned a lot of cool new information today and your brain needs some
-                        quality rest. You hug your Sammy the slug stuffed animal and drift off to sleep. You did it, and you survived your first day at UCSC. Congratulations!</p>
-                    <h3>Here’s some inspiring advice for the road:</h3>
-                    <Advice />
-                </div>
+                <Conclusion />
             )
         },
     ],
@@ -233,7 +250,7 @@ const sections = {
                         is just. The course encourages students to examine their own definition of justice and compare it to
                         questions of justice historically and contemporarily.</p>
                     <h3>Environment: </h3>
-                    <p>CCowell College, located next to Stevenson has some of the best views on campus as it overlooks Eastfield
+                    <p>Cowell College, located next to Stevenson has some of the best views on campus as it overlooks Eastfield
                         and the bay of Santa Cruz. Like Stevenson, Cowell is also known for its proximity to the gym, which is a
                         big plus for any students wanting easy access to the facilities offered by the rec center. Cowell also
                         shares the Cowell and Stevenson dining hall and are known as one of the best dining halls on campus.
@@ -305,19 +322,19 @@ const sections = {
         // helpful stuff
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <HelpfulStuff />
+            )
+        },
+        // more helpful stuff
+        {
+            content: (
+                <HelpfulStuff2 />
             )
         },
         // conclusion
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <Conclusion />
             )
         },
     ],
@@ -406,19 +423,19 @@ const sections = {
         // helpful stuff
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <HelpfulStuff />
+            )
+        },
+        // more helpful stuff
+        {
+            content: (
+                <HelpfulStuff2 />
             )
         },
         // conclusion
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <Conclusion />
             )
         },
     ],
@@ -507,19 +524,19 @@ const sections = {
         // helpful stuff
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <HelpfulStuff />
+            )
+        },
+        // more helpful stuff
+        {
+            content: (
+                <HelpfulStuff2 />
             )
         },
         // conclusion
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <Conclusion />
             )
         },
     ],
@@ -610,19 +627,19 @@ const sections = {
         // helpful stuff
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <HelpfulStuff />
+            )
+        },
+        // more helpful stuff
+        {
+            content: (
+                <HelpfulStuff2 />
             )
         },
         // conclusion
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <Conclusion />
             )
         },
     ],
@@ -705,19 +722,19 @@ const sections = {
         // helpful stuff
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <HelpfulStuff />
+            )
+        },
+        // more helpful stuff
+        {
+            content: (
+                <HelpfulStuff2 />
             )
         },
         // conclusion
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <Conclusion />
             )
         },
     ],
@@ -802,19 +819,19 @@ const sections = {
         // helpful stuff
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <HelpfulStuff />
+            )
+        },
+        // more helpful stuff
+        {
+            content: (
+                <HelpfulStuff2 />
             )
         },
         // conclusion
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <Conclusion />
             )
         },
     ],
@@ -899,19 +916,19 @@ const sections = {
         // helpful stuff
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <HelpfulStuff />
+            )
+        },
+        // more helpful stuff
+        {
+            content: (
+                <HelpfulStuff2 />
             )
         },
         // conclusion
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <Conclusion />
             )
         },
     ],
@@ -990,19 +1007,19 @@ const sections = {
         // helpful stuff
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <HelpfulStuff />
+            )
+        },
+        // more helpful stuff
+        {
+            content: (
+                <HelpfulStuff2 />
             )
         },
         // conclusion
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <Conclusion />
             )
         },
     ],
@@ -1080,19 +1097,19 @@ const sections = {
         // helpful stuff
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <HelpfulStuff />
+            )
+        },
+        // more helpful stuff
+        {
+            content: (
+                <HelpfulStuff2 />
             )
         },
         // conclusion
         {
             content: (
-                <div>
-                    <h2>Next question</h2>
-                    <p>Placeholder</p>
-                </div>
+                <Conclusion />
             )
         },
     ],
@@ -1157,7 +1174,7 @@ function Game() {
 }
 
 
-ReactDOM.render(<Game/>, document.getElementById('game-root'));
+ReactDOM.render(<Game />, document.getElementById('game-root'));
 
 /* api */
 // function handle_advice() {
