@@ -61,7 +61,7 @@ const HelpfulStuff = () => {
                 stressors, build new skills and increase confidence, resolve problems, and identify alternatives to help in becoming successful as a UCSC student.
                 They have multiple different services and resources such as the Let's Talk drop in program, Peer education program, Campus Coaching programs,
                 Get help now, and CAPS calendar.  </p>
-            <h3>Lets move on to some final boots!</h3>
+            <h3>Lets move on to some final booths!</h3>
         </div>
     )
 }
@@ -194,7 +194,7 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Let's visit the dinning hall!</h2>
+                    <h2>Let's visit the dining hall!</h2>
                     <p>After your orientation, you hear a few folks chatting about going to the Stevenson/Cowell dining hall. You hear your stomach grumble and it doesn’t sound like a bad
                         idea! You leave the orientation and follow the group to the dining hall. You remember that you have a meal plan and you can get in with one swipe of your ID! UCSC
                         offers a convenient flexi-dollars system tied to your student ID card to purchase meals as well as a new 3-tier point system (Blue, Gold, Banana) with varying
@@ -205,7 +205,7 @@ const sections = {
                         popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                     <img class="dinninghall"
                         src="./img/csdinning.jpg"
-                        alt="Cowell and Stevenson dinning hall">
+                        alt="Cowell and Stevenson dining hall">
                     </img>
                 </div>
             )
@@ -301,7 +301,7 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Let's visit the dinning hall!</h2>
+                    <h2>Let's visit the dining hall!</h2>
                     <p>After your orientation, you hear a few folks chatting about going to the Stevenson/Cowell dining hall. You hear your stomach
                         grumble and it doesn’t sound like a bad idea! You leave the orientation and follow the group to the dining hall. You remember
                         that you have a meal plan and you can get in with one swipe of your ID! UCSC offers a convenient flexi-dollars system tied
@@ -314,7 +314,7 @@ const sections = {
                         ‘nutrition.sa.ucsc.edu.’ You grub on your popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                     <img class="dinninghall"
                         src="./img/csdinning.jpg"
-                        alt="Cowell and Stevenson dinning hall">
+                        alt="Cowell and Stevenson dining hall">
                     </img>
                 </div>
             )
@@ -403,7 +403,7 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Let's visit the dinning hall!</h2>
+                    <h2>Let's visit the dining hall!</h2>
                     <p>After your orientation, you hear a few folks chatting about going to the Crown/Merrill dining hall. You hear your stomach grumble and it
                         doesn’t sound like a bad idea! You leave the orientation and follow the group to the dining hall. You remember that you have a meal plan
                         and you can get in with one swipe of your ID! UCSC offers a convenient flexi-dollars system tied to your student ID card to purchase meals
@@ -415,7 +415,7 @@ const sections = {
                         ‘nutrition.sa.ucsc.edu.’ You grub on your popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                     <img class="dinninghall"
                         src="./img/cmdinning.jpg"
-                        alt="Crown and Merrill dinning hall">
+                        alt="Crown and Merrill dining hall">
                     </img>
                 </div>
             )
@@ -504,7 +504,7 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Let's visit the dinning hall!</h2>
+                    <h2>Let's visit the dining hall!</h2>
                     <p>After your orientation, you hear a few folks chatting about going to the Crown/Merrill dining hall. You hear your stomach grumble and it
                         doesn’t sound like a bad idea! You leave the orientation and follow the group to the dining hall. You remember that you have a meal plan
                         and you can get in with one swipe of your ID! UCSC offers a convenient flexi-dollars system tied to your student ID card to purchase meals
@@ -516,7 +516,7 @@ const sections = {
                         You grub on your popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                     <img class="dinninghall"
                         src="./img/cmdinning.jpg"
-                        alt="Crown and Merrill dinning hall">
+                        alt="Crown and Merrill dining hall">
                     </img>
                 </div>
             )
@@ -607,7 +607,7 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Let's visit the dinning hall!</h2>
+                    <h2>Let's visit the dining hall!</h2>
                     <p>After your orientation, you hear a few folks chatting about going to the College 9/10 dining hall. You hear your stomach grumble and it doesn’t
                         sound like a bad idea! You leave the orientation and follow the group to the dining hall. You remember that you have a meal plan and you can get
                         in with one swipe of your ID! UCSC offers a convenient flexi-dollars system tied to your student ID card to purchase meals as well as a new 3-tier
@@ -619,7 +619,7 @@ const sections = {
                         chicken and grab a cone of vanilla soft serve on your way out. </p>
                     <img class="dinninghall"
                         src="./img/c9dinning.jpg"
-                        alt="Nine and JRL dinning hall">
+                        alt="Nine and JRL dining hall">
                     </img>
                 </div>
             )
@@ -702,7 +702,7 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Let's visit the dinning hall!</h2>
+                    <h2>Let's visit the dining hall!</h2>
                     <p>After your orientation, you hear a few folks chatting about going to the College 9/10 dining hall. You hear your stomach grumble and it doesn’t
                         sound like a bad idea! You leave the orientation and follow the group to the dining hall. You remember that you have a meal plan and you can get
                         in with one swipe of your ID! UCSC offers a convenient flexi-dollars system tied to your student ID card to purchase meals as well as a new 3-tier
@@ -714,7 +714,7 @@ const sections = {
                         chicken and grab a cone of vanilla soft serve on your way out. </p>
                     <img class="dinninghall"
                         src="./img/c9dinning.jpg"
-                        alt="Nine and JRL dinning hall">
+                        alt="Nine and JRL dining hall">
                     </img>
                 </div>
             )
@@ -799,7 +799,7 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Let's visit the dinning hall!</h2>
+                    <h2>Let's visit the dining hall!</h2>
                     <p>After your orientation, you hear a few folks chatting about going to the Porter/Kresge dining hall. You hear your stomach grumble and it
                         doesn’t sound like a bad idea! You leave the orientation and follow the group to the dining hall. You remember that you have a meal plan
                         and you can get in with one swipe of your ID! UCSC offers a convenient flexi-dollars system tied to your student ID card to purchase meals
@@ -811,7 +811,7 @@ const sections = {
                         on your popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                     <img class="dinninghall"
                         src="./img/pkdinning.jpg"
-                        alt="Porter and Kresge dinning hall">
+                        alt="Porter and Kresge dining hall">
                     </img>
                 </div>
             )
@@ -897,7 +897,7 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Let's visit the dinning hall!</h2>
+                    <h2>Let's visit the dining hall!</h2>
                     <p>After your orientation, you hear a few folks chatting about going to the Porter/Kresge dining hall. You hear your stomach grumble and it doesn’t sound like a
                         bad idea! You leave the orientation and follow the group to the dining hall. You remember that you have a meal plan and you can get in with one swipe of your
                         ID! UCSC offers a convenient flexi-dollars system tied to your student ID card to purchase meals as well as a new 3-tier point system (Blue, Gold, Banana) with
@@ -908,7 +908,7 @@ const sections = {
                         You grub on your popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                     <img class="dinninghall"
                         src="./img/pkdinning.jpg"
-                        alt="Porter and Kresge dinning hall">
+                        alt="Porter and Kresge dining hall">
                     </img>
                 </div>
             )
@@ -988,7 +988,7 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Let's visit the dinning hall!</h2>
+                    <h2>Let's visit the dining hall!</h2>
                     <p>After your orientation, you hear a few folks chatting about going to the Rachel Carson/Oakes dining hall. This dining hall is brand new and opened in 2023! You
                         hear your stomach grumble and it doesn’t sound like a bad idea! You leave the orientation and follow the group to the dining hall. You remember that you have a
                         meal plan and you can get in with one swipe of your ID! UCSC offers a convenient flexi-dollars system tied to your student ID card to purchase meals as well as a
@@ -999,7 +999,7 @@ const sections = {
                         check the menu at ‘nutrition.sa.ucsc.edu.’ You grub on your popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                     <img class="dinninghall"
                         src="./img/rccdinning.jpg"
-                        alt="RCC and Oakes dinning hall">
+                        alt="RCC and Oakes dining hall">
                     </img>
                 </div>
             )
@@ -1077,7 +1077,7 @@ const sections = {
         {
             content: (
                 <div>
-                    <h2>Let's visit the dinning hall!</h2>
+                    <h2>Let's visit the dining hall!</h2>
                     <p>After your orientation, you hear a few folks chatting about going to the Rachel Carson/Oakes dining hall. This dining hall is brand new
                         and opened in 2023! You hear your stomach grumble and it doesn’t sound like a bad idea! You leave the orientation and follow the group
                         to the dining hall. You remember that you have a meal plan and you can get in with one swipe of your ID! UCSC offers a convenient
@@ -1089,7 +1089,7 @@ const sections = {
                         a website where you can check the menu at ‘nutrition.sa.ucsc.edu.’ You grub on your popcorn chicken and grab a cone of vanilla soft serve on your way out. </p>
                     <img class="dinninghall"
                         src="./img/rccdinning.jpg"
-                        alt="RCC and Oakes dinning hall">
+                        alt="RCC and Oakes dining hall">
                     </img>
                 </div>
             )
