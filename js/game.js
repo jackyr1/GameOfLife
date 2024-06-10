@@ -1141,14 +1141,14 @@ function Game() {
                     <p> With that in mind, What college will you pick?</p>
                     <div className="collage-buttons">
                         <button onClick={() => setCurrentSection('section1')}>Stevenson College</button>
-                        <button onClick={() => setCurrentSection('section3')}>Merrill College</button>
-                        <button onClick={() => setCurrentSection('section5')}>College Nine</button>
-                        <button onClick={() => setCurrentSection('section7')}>Kresge College</button>
-                        <button onClick={() => setCurrentSection('section9')}>Rachel Carson College</button>
                         <button onClick={() => setCurrentSection('section2')}>Cowell College</button>
+                        <button onClick={() => setCurrentSection('section3')}>Merrill College</button>
                         <button onClick={() => setCurrentSection('section4')}>Crown College</button>
+                        <button onClick={() => setCurrentSection('section5')}>College Nine</button>
                         <button onClick={() => setCurrentSection('section6')}>John R. Lewis College</button>
+                        <button onClick={() => setCurrentSection('section7')}>Kresge College</button>
                         <button onClick={() => setCurrentSection('section8')}>Porter College</button>
+                        <button onClick={() => setCurrentSection('section9')}>Rachel Carson College</button>
                         <button onClick={() => setCurrentSection('section10')}>Oakes College</button>
                     </div>
                 </div>
